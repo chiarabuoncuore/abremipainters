@@ -1,8 +1,8 @@
 title: KE4H Project
-description: Our submission for the KE4H exam: a comparison and contrast between local italian painters Francesco Paolo Michetti and Marcantonio Chiarini 
+description: Our submission for the KE4H exam, comparing and contrasting local italian painters Francesco Paolo Michetti and Marcantonio Chiarini.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
