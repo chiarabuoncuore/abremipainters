@@ -11,6 +11,24 @@ project desc.
 * [Challenges](.challenges.html)
 * [Final Report](.final-report.html)
 
+***
+
+## Project Participants 
+<div class="flex-container">
+    <div class="column">
+      * <i>Chiara Buoncuore</i>
+      * <i>Anna Camattari</i>
+      * <i>Giacomo Conti</i>
+    </div>
+    <div class="column">
+      * <i>Noemi Montebello</i>
+      * <i>Elia Orlandini</i>
+      * <i>Alessandro Scebba</i>
+    </div>
+</div>
+
+***
+
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
