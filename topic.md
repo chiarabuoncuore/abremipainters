@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Topic
-description: Topic description
+description:
 ---
-
-## Topic
 
 _desc_
 
