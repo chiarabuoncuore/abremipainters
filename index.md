@@ -5,10 +5,12 @@ layout: default
 project desc.
 
 | ## Menu                                           |
-|:--------------------------------------------------|
-| *   [Topic](./another-page.html)                  |
-| *   Methodololgy                                  |
-| *   This is an unordered list following a header. |
+|:------------------:|
+| [Topic](./another-page.html)                  |
+| Methodololgy                                  |
+| SPARQL and Prompts |
+| Challenges | 
+| Final Report |
 
 > This is a blockquote following a header.
 >
