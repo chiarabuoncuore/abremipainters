@@ -7,9 +7,9 @@ project desc.
 ## Menu
 * [Topic](./topic.html)
 * [Methodololgy](./methodology.html)
-* [SPARQL and Prompts](.sparwl.html)
-* Challenges
-* Final Report
+* [SPARQL and Prompts](.sparql.html)
+* [Challenges](.challenges.html)
+* [Final Report](.final-report.html)
 
 > This is a blockquote following a header.
 >
