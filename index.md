@@ -2,15 +2,13 @@
 layout: default
 ---
 
-# KE4H: Local Italian painters Enrichment Projects
-
 project desc.
 
-## Header 2
-
-*   [Topic](./another-page.html)
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+| ## Menu                                           |
+|:--------------------------------------------------|
+| *   [Topic](./another-page.html)                  |
+| *   Methodololgy                                  |
+| *   This is an unordered list following a header. |
 
 > This is a blockquote following a header.
 >
