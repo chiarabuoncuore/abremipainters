@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: Topic
+description: Topic description
 ---
 
-## Welcome to another page
+## Topic
 
-_yay_
+_desc_
 
-[back](./)
+[back to Main Page](./)
