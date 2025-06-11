@@ -4,13 +4,12 @@ layout: default
 
 project desc.
 
-| ## Menu                                           |
-|:------------------:|
-| [Topic](./another-page.html)                  |
-| Methodololgy                                  |
-| SPARQL and Prompts |
-| Challenges | 
-| Final Report |
+## Menu
+* [Topic](./topic.html)
+* [Methodololgy](./methodology.html)
+* SPARQL and Prompts
+* Challenges
+* Final Report
 
 > This is a blockquote following a header.
 >
