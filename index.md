@@ -7,7 +7,7 @@ project desc.
 ## Menu
 * [Topic](./topic.html)
 * [Methodololgy](./methodology.html)
-* SPARQL and Prompts
+* [SPARQL and Prompts](.sparwl.html)
 * Challenges
 * Final Report
 
