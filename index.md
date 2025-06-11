@@ -14,18 +14,12 @@ project desc.
 ***
 
 ## Project Participants 
-<div class="flex-container">
-    <div class="column">
-      * <i>Chiara Buoncuore</i>
-      * <i>Anna Camattari</i>
-      * <i>Giacomo Conti</i>
-    </div>
-    <div class="column">
-      * <i>Noemi Montebello</i>
-      * <i>Elia Orlandini</i>
-      * <i>Alessandro Scebba</i>
-    </div>
-</div>
+* Chiara Buoncuore
+* Anna Camattari
+* Giacomo Conti
+* Noemi Montebello
+* Elia Orlandini
+* Alessandro Scebba
 
 ***
 
