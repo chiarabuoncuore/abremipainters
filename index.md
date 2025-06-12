@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Painters
 description: A research on regional italian painters Francesco Paolo Michetti and Marcantonio Chiarini
 ---
 
