@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Topic
-description: Regional painters
+title: Topic - regional painters
 ---
 
 # Marcantonio Chiarini and Francesco Paolo Michetti
