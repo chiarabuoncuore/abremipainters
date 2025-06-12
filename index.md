@@ -1,5 +1,6 @@
 ---
 layout: default
+description: A research on regional italian painters Francesco Paolo Michetti and Marcantonio Chiarini
 ---
 
 ## Introduction
