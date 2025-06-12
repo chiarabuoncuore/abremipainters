@@ -3,10 +3,7 @@ layout: default
 title: SPARQL and Prompts
 description:
 ---
-We used SPARQL queries to identify missing information about the following painters:
-
--Francesco Paolo Michetti (Q3081044) 
--Marcantonio Chiarini (Q3288556)
+This section presents the SPARQL queries and large language model (LLM) prompts employed to identify "regional" painters whose names contain either "Chiarini" or "Michetti." Our objective was to uncover gaps in Wikidata's coverage of such artists. To achieve this, we utilized three distinct prompting strategies, each designed to probe Wikidata’s existing records and generate supplementary RDF triples where omissions were detected.
 
 
 
