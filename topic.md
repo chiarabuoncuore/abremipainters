@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Topic
-description: none
+description: Regional painters
 ---
-
-## Project topic: regional painters
 
 # Marcantonio Chiarini and Francesco Paolo Michetti
 We intentionally selected these painters because they embody the cultural roots of our group. Half of us come from Emilia Romagna, while the other half come from Abruzzo. This regional connection inspired us to explore artists linked to these two Italian regions. Both Chiarini and Michetti are relatively underrated and remain largely unknown to most people outside specialized art circles. Despite their significant contributions to Italian art, they have not received the widespread recognition they deserve.
