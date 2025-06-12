@@ -3,6 +3,7 @@ layout: default
 title: Challenges
 description:
 ---
+## Challenges and Solutions
 
 1.Crafting accurate SPARQL Queries
 The Challenge of Crafting Accurate SPARQL Queries
