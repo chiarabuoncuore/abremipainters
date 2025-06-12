@@ -4,6 +4,6 @@ title: SPARQL and Prompts
 description:
 ---
 
-_desc_
+![SPARQL query, printerlookupbyname](/assets/painterlookupbyname.png)
 
 [back to Main Page](./)
