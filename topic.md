@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Topic
-description
+description: none
 ---
 
 ## Project topic: regional painters
