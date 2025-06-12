@@ -11,9 +11,9 @@ layout: default
 ## Menu
 * [Topic](./topic.html)
 * [Methodology](./methodology.html)
-* [SPARQL and Prompts](.sparql.html)
-* [Challenges](.challenges.html)
-* [Final Report](.final-report.html)
+* [SPARQL and Prompts](./sparql.html)
+* [Challenges](./challenges.html)
+* [Final Report](./final-report.html)
 
 ***
 
