@@ -106,11 +106,14 @@ a {
 }
 
 .page-header {
-  background-image: url("assets/images/81ZmAG-xkrL.jpg"); /* Replace with your image path */
-  background-size: cover; /* Optional: Makes the image cover the entire header */
-  background-position: top center; /* Optional: Centers the image */
-  background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
+  color: #fff;
   text-align: center;
+  background-image: url("/assets/imgages/81ZmAG-xkrL.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+  }
 
   @include large {
     padding: 5rem 6rem;
