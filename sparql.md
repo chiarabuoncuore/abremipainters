@@ -59,10 +59,16 @@ Function used: **UNION**
 
 ![Image4](/abremipainters/assets/images/Immagine7.jpg)
 
+---
 
 
 **LLMs Prompting Techniques**
-- Zero-shot Prompt: The prompt "Which movement did the painter Marcantonio Chiarini belong to?" is effective because it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous
+
+
+- *Zero-shot Prompt*
+The prompt "Which movement did the painter Marcantonio Chiarini belong to?" is effective because it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous
+
+*Responses:*
 
 CHATGPT
 
@@ -76,7 +82,10 @@ MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine10.jpg)
 
-- Few-shot Prompt: In the prompt "If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?", the model is given two clear examples of artists and their corresponding movements. This helps set a pattern: name → movement. The structure teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy
+- *Few-shot Prompt*
+In the prompt "If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?", the model is given two clear examples of artists and their corresponding movements. This helps set a pattern: name → movement. The structure teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy
+
+*Responses:*
 
 CHATGPT
 
@@ -90,8 +99,10 @@ MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine13.jpg)
 
-- Chain-of-Thought Prompt: Encourages the model to think step by step before producing a final answer. Useful for reasoning tasks, like math, logic, or multi-step problems.
+- *Chain-of-Thought Prompt*:
+Encourages the model to think step by step before producing a final answer. Useful for reasoning tasks, like math, logic, or multi-step problems.
 
+*Responses*
 CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine14.jpg)
