@@ -13,6 +13,10 @@ Functions used: **FILTER, REGEX AND UNION, DISTINCT, LIMIT**
 
 The results displayed by this SPARQL query are the following:
 
+![Image2SPARQLquery](/abremipainters/assets/images/Immagine2.jpg)
+
+
+
 
    
 ***
