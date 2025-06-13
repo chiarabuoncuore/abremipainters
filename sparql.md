@@ -7,7 +7,7 @@ This section presents the SPARQL queries and large language model (LLM) prompts 
 
 **SPARQL QUERIES** 
 
-1. *Query painter information by name*
+1. *Query painter information by Name*
 
 The first query allowed us to search for regional painters whose names included “Chiarini” or “Michetti”
    
