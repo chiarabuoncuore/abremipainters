@@ -19,4 +19,6 @@ We intentionally selected these painters because they embody the cultural roots 
     <figcaption> Marcantonio Chiarini's Portrait.</figcaption>
 </figure>
 
-[back to Main Page](./)
+***
+
+[← Main Page](./)
