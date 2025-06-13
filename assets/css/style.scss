@@ -13,7 +13,7 @@
     flex: 1; /* Each column takes an equal share of the available space */
     padding: 15px;
     border: 1px solid #ddd;
-    background-color: #f9f9f9;
+    background-color: #F7F7F7;
 }
 
 /* Optional: Make columns stack on smaller screens for responsiveness */
@@ -23,6 +23,8 @@
     }
 }
 
+.project-name,
 .project-tagline { /* Use the exact class name you found in Step 1 */
     font-weight: bold; /* This makes the text bold */
+    color: ##353535;
 }
