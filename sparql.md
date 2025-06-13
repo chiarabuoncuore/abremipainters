@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SPARQL and Prompts 
-description: Tecgniques Used
+description: Techniques Used
 ---
 This section presents the SPARQL queries and large language model (LLM) prompts employed to identify "regional" painters whose names contain either "Chiarini" or "Michetti." Our objective was to uncover gaps in Wikidata's coverage of such artists. To achieve this, we utilized three distinct prompting strategies (zero-shot prompt, few-shot prompt and chain-of-thought prompt), each designed to probe Wikidata’s existing records and generate supplementary RDF triples where omissions were detected.
 
