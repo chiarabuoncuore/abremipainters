@@ -44,13 +44,16 @@ Functions used: **OPTIONAL, ORDER BY**
 
 - *Query for Work Location (P937) identification*
 
+
 Functions used: **ORDER BY**
 
 ![Image4](/abremipainters/assets/images/Immagine6.jpg)
 
 
 - *Query for country of citizenship (P27) identification*
-  
+
+We used a UNION query to retrieve the country of citizenship for both painters at once. his allows retrieving their respective countries of citizenship efficiently without running separate queries.
+
 Function used: **UNION**
 
 ![Image4](/abremipainters/assets/images/Immagine7.jpg)
