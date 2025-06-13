@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Challenges
+title: Challenges Faced 
 description:
 ---
 ## Challenges and Solutions
@@ -25,13 +25,21 @@ Solution: before using the selected image, we had to verify that it was freely a
 
 # 4.Building and structuring the website 
 
-Challenge: 
+Challenge: As none of us had experience with building websites, neither on GitHub nor with Jekyll, the process took a lot of trial and error following thorough documentation. Making sure all the pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
 
-Solution: 
+
+Solution: After studying both the GitHub and the Jekyll documentation, we outlined a list of sub-objectives we needed to achieve. After choosing a layout we all liked and enabling the website, we went through the gradual process of adding each page’s content, and finally we concentrated on ensuring navigation ran smoothly, and that the website as a whole looked visually cohesive, so all the content was properly rendered.
 
 # 5.Summary 
 
-(tabella con riassunto dei punti) 
+- Generating precise SPARQL Queries → incorporation of relevant keywords and identification of gaps on Wikidata
+
+- Q-ID Errors in LLM Outputs → manual correction by cross-checking on Wikidata
+
+- Inserting an image → generation of a RDF triple code to include the image in the proposal and fill the gap
+
+- Developing and structuring the website → study of the GitHub and Jekyll documentation
+
 
 
 [← Main Page](./)
