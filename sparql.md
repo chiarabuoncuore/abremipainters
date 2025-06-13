@@ -7,7 +7,7 @@ This section presents the SPARQL queries and large language model (LLM) prompts 
 
 1. The first query allowed us to search for “regional” painters whose names included “Chiarini” or “Michetti”
 Functions used: FILTER, REGEX AND UNION, DISTINCT, LIMIT
-
+![Image1SPARQLquery](abremipainters/assets/images/Immagine1.jpg)
    
 ***
 
