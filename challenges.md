@@ -34,4 +34,4 @@ Solution:
 (tabella con riassunto dei punti) 
 
 
-[back to Main Page](./)
+[← Main Page](./)
