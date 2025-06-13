@@ -106,10 +106,10 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
-  text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: url("/assets/imgages/assets/images/diversi-pennelli-e-tavolozza-su-sfondo-bianco-vista-dall-alto-con-spazio-per-il-testo_495423-53101.avif"); /* Replace with your image path */
+  background-size: cover; /* Optional: Makes the image cover the entire header */
+  background-position: center; /* Optional: Centers the image */
+  background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
 
   @include large {
     padding: 5rem 6rem;
