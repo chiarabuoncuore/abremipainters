@@ -95,14 +95,15 @@ MISTRAL
 CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine14.jpg)
+![Image4](/abremipainters/assets/images/Immagine15.jpg)
 
 GEMINI
 
-![Image4](/abremipainters/assets/images/Immagine15.jpg)
+![Image4](/abremipainters/assets/images/Immagine16.jpg)
 
 MISTRAL
 
-![Image4](/abremipainters/assets/images/Immagine16.jpg)
+![Image4](/abremipainters/assets/images/Immagine17.jpg)
 
 ***
 
