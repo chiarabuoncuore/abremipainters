@@ -22,10 +22,10 @@ By focusing on these two painters, we aim not only to celebrate our regional ide
 ***
 
 ## Case studies 
-* [Gap 1 | Image](./gap1.html)
-* [Gap 2 | Movement](./gap2.html)
-* [Gap 3 | Counrty of Citizenship](./gap3.html)
-* [Gap 4 | Work Location](./gap4.html)
+* [Gap 1: Image](./gap1.html)
+* [Gap 2: Movement](./gap2.html)
+* [Gap 3: Counrty of Citizenship](./gap3.html)
+* [Gap 4: Work Location](./gap4.html)
 
 ***
 
