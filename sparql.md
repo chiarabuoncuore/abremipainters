@@ -9,6 +9,6 @@ This section presents the SPARQL queries and large language model (LLM) prompts 
 Functions used: FILTER, REGEX AND UNION, DISTINCT, LIMIT
 
    
+***
 
-
-[back to Main Page](./)
+[← Main Page](./)
