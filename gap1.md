@@ -17,11 +17,11 @@ Being a relevant person in the artistic field, and more precisely a significant 
 
 To pinpoint the gap on Wikidata, we utilized a SPARQL query. Specifically, we designed a query to investigate how the image property (P18) is associated with both painters. By incorporating the 'ORDER BY' clause, we were able to effectively highlight any missing data and identify which painter the gap pertains to.
 
-![Image1](/abemipainters/assets/images/Immagine1.jpg) 
+![Image1](/abremipainters/assets/images/Immagine1.jpg) 
 
 Results: 
 
-![Image2](/abemipainters/assets/images/Immagine2.jpg)
+![Image2](/abremipainters/assets/images/Immagine2.jpg)
 
 From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata
 
