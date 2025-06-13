@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Choice of Topic
-description: Regional painters: Two Masters, Two Regions
+description: Two Masters, Two Regions 
 ---
 
 # M. Chiarini (Q3288556) and F. P. Michetti (Q3081044)
