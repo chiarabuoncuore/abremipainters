@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Topic
-description: Regional painters
+title: Michetti
+description:
 ---
 
-# Michetti
+desc
