@@ -25,7 +25,11 @@ In order to find out if wikidata provides the images of the two italian painters
 
 Functions used: **DISTINCT, ORDER BY**
 
+![Image3](/abremipainters/assets/images/Immagine3.jpg)
 
+Results: 
+
+![Iamge4](/abremipainters//images/Immagine4.jpg)
 
 
 
