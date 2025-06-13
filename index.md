@@ -8,10 +8,10 @@ description: A research on the regional italian painters Francesco Paolo Michett
 In this KE4H project, we explore available information about painters **Marcantonio Chiarini (1652–1730)** and **Francesco Paolo Michetti (1851–1929)** through the Wikidata Knowledge Graph. The purpose of this project is to provide the Knowledge graph with the information we found was missing by querying the Graph using SPARQL.
 
 ## Menu
-* [Topic](./topic.html)
+* [Choice of Topic](./topic.html)
 * [Methodology](./methodology.html)
-* [SPARQL and Prompts](./sparql.html)
-* [Challenges](./challenges.html)
+* [SPARQL and Prompts Techniques Used](./sparql.html)
+* [Challenges Faced](./challenges.html)
 * [Final Report](./final-report.html)
 
 ***
