@@ -10,13 +10,13 @@ We intentionally selected these painters because they embody the cultural roots 
 <figure>
     <img src="/abremipainters/assets/500px-Michetti_fp.jpg"
          alt="Michettis' Portrait">
-    <figcaption>Ritratto di Francesco Paolo Michetti.</figcaption>
+    <figcaption> Francesco Paolo Michettis' Portrait.</figcaption>
 </figure>
 
 <figure>
     <img src="/abremipainters/assets/Ritratto_di_Marcantonio_Chiarini_(bulino).jpg"
          alt="Chiarini's Portrait">
-    <figcaption>Ritratto di Marcantonio Chiarini.</figcaption>
+    <figcaption> Marcantonio Chiarini's Portarit.</figcaption>
 </figure>
 
 # Goal of the project
