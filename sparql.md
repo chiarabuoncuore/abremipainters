@@ -59,6 +59,8 @@ Function used: **UNION**
 
 ![Image4](/abremipainters/assets/images/Immagine7.jpg)
 
+**LLMs Prompting Techniques**
+
 
 
 
