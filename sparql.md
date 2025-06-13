@@ -19,7 +19,7 @@ The results displayed by this SPARQL query are the following:
 
 ![Image2SPARQLquery](/abremipainters/assets/images/Immagine2.jpg)
 
-2. *Query for Image(P18) identification)*
+2. *Query for Image(P18) identification*
 
 In order to find out if wikidata provides the images of the two italian painters, we asked it to create a SPARQL query, enabling us to discover that Chiarini’s image was missing.
 
