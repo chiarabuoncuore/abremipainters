@@ -16,6 +16,9 @@ In this KE4H project, we explore available information about painters Marcantoni
 
 ***
 
+## Goal of the project
+By focusing on these two painters, we aim not only to celebrate our regional identities but also to bring greater awareness to their artistic achievements. Our goal is to enrich the knowledge graph Wikidata about these artists, which could perhaps contribute to a broader appreciation of Italy’s rich and diverse artistic heritage. In doing so, we hope to fill a gap in common knowledge and encourage others to rediscover these important, yet overlooked, figures.
+
 ## Project Participants 
 > * *Chiara Buoncuore*
 > * *Anna Camattari*
@@ -30,8 +33,9 @@ In this KE4H project, we explore available information about painters Marcantoni
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
 
+
+<code class="language-plaintext highlighter-rouge">VALUES</code>
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
