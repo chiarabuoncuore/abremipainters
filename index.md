@@ -10,7 +10,7 @@ In this KE4H project, we explore available information about painters **Marcanto
 ## Menu
 * [Choice of Topic](./topic.html)
 * [Methodology](./methodology.html)
-* [SPARQL and Prompts Techniques Used](./sparql.html)
+* [SPARQL and Prompting Techniques Used](./sparql.html)
 * [Challenges Faced](./challenges.html)
 * [Final Report](./final-report.html)
 
