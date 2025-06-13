@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Painters
+title: Where Art Meets Data – Rediscovering the Overlooked
 description: A research on regional italian painters Francesco Paolo Michetti and Marcantonio Chiarini
 ---
 
 ## Introduction
-In this KE4H project, we explore available information about painters Marcantonio Chiarini (1652–1730) and Francesco Paolo Michetti (1851–1929) through the Wikidata Knowledge Graph. The purpose of this project is to provide the Knowledge graph with the information we found was missing by querying the Graph using SPARQL.
+In this KE4H project, we explore available information about painters **Marcantonio Chiarini (1652–1730)** and **Francesco Paolo Michetti (1851–1929)** through the Wikidata Knowledge Graph. The purpose of this project is to provide the Knowledge graph with the information we found was missing by querying the Graph using SPARQL.
 
 ## Menu
 * [Topic](./topic.html)
