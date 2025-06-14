@@ -38,8 +38,3 @@ By focusing on these two painters, we aim not only to celebrate our regional ide
 > * *Noemi Montebello*
 > * *Elia Orlandini*
 > * *Alessandro Scebba*
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
