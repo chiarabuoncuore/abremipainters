@@ -29,11 +29,12 @@
     color: #353535;
 }
 
-.page-header, 
-h1,
-h2,
-h3,
-h4,
-h6 {
-    color: #6ed0f5; 
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: #6ed0f5; /* Your desired color */
+    /* You can add other properties here if you want them for these body headers,
+       e.g., font-family: "Your Custom Font", sans-serif; */
 }
