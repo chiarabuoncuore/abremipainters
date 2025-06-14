@@ -5,6 +5,7 @@ title: Gap 3 | Country of citizenship
 An artist's nationality often influences their styles and themes, therefore finding out the “country of citizenship” of painters like Marcantonio Chairini and Francesco Paolo Michetti is essential, since it provides the context for interpreting their work and to better understand the environment that shaped their artistic identity. For this reason, our goal is to update this property in their respective WikiData’s pages.
 
 **1st step: IDENTIFYING THE GAP**
+ 
  We created the following SPARQL query using Union operator in order to find out Chiarini and Michetti’s country of citizenship.
 
 SELECT ?person ?personLabel ?country ?countryLabel WHERE {
@@ -25,6 +26,7 @@ SELECT ?person ?personLabel ?country ?countryLabel WHERE {
 ![Sparql query](/abremipainters/assets/images/chiarinicountryofcitizenship/SPARQLQUERYCHIARINICOUNTRYOFCITIZENSHIP.jpg)
 
 **2nd STEP: REQUEST THE MISSING INFORMATION TO 3 DIFFERENT LANGUAGE MODELS**
+
  after having detected the gap, we asked, through a “zero-shot prompting technique”, which was Chiarini’s country of citizenship to 3 different LLMs: Chat GPT, Gemini and Mistral.
 
 - **CHATGPT**
@@ -39,10 +41,11 @@ SELECT ?person ?personLabel ?country ?countryLabel WHERE {
 **INFORMATION ACQUIRED:** Since all the 3 LLMs provided us with the same answer, we took for granted that Chiarini’s country of citizenship is: Italy.
 
 **3rd step: CREATION OF RDF TRIPLES USING WIKIDATA ONTOLOGY**
+ 
  Having discovered Italy (Q38) is Chiarini’s country of citizenship, we asked the 3 LLMs to create an RDF triples basing on WikiData ontology.
 
 - **CHATGPT:**
-![RDF triple created by ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGOTRDFTRIPLE.jpg)
+![RDF triple created by ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHAT GOT RDF TRIPLE.jpg)
 
 - **GEMINI:**
 ![RDF triple created by Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIINCORRECTRDF.jpg)
