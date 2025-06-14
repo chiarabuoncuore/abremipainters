@@ -106,6 +106,7 @@ MISTRAL
 Encourages the model to think step by step before producing a final answer. Useful for reasoning tasks, like math, logic, or multi-step problems.
 
 *Responses*
+
 CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine14.jpg)
