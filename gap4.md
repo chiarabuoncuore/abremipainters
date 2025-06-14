@@ -43,10 +43,12 @@ Based on these results, we generated RDF triples according to the Wikidata ontol
 
 *GEMINI*
 
+![Imagewl](/abremipainters/assets/images/Immagine16.jpg)
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
 
-![Imagewl](/abremipainters/assets/images/Immagine16.jpg)
+![Imageine](/abremipainters/assets/images/WORKLOCATION.png)
+
 
 In this LLM the codes were accurate, and no manual correction was required. 
 
@@ -55,11 +57,14 @@ In this LLM the codes were accurate, and no manual correction was required.
 ![Imagewl](/abremipainters/assets/images/Immagine17.jpg)
 
 
-Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
+Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following:
+
+![Imagewl](/abremipainters/assets/images/rdftripleserratimistral.jpg)
+
 
 - **Manual correction and validation of the codes are required**
 
-Immagine 
+![Imagewl](/abremipainters/assets/images/gap4ultimaimmagine.jpg)
 
 - **CONCLUSION**
 
