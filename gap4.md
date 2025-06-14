@@ -36,7 +36,7 @@ Based on these results, we generated RDF triples according to the Wikidata ontol
 
 - **Manual correction and validation of the codes:**
 
-![Imagewl](/abremipainters/assets/images/rdfworllocation3.png)
+![Imagewl](/abremipainters/assets/images/rdfworklocatrion3.png)
 
 
 *GEMINI*
