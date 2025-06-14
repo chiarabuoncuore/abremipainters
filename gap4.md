@@ -14,7 +14,7 @@ Considering that:
 
 The Wikidata Query Service produced the following results: 
 
-IMMAGINE INSERIRE 
+![IMAGE1](abremipainters/assets/images/Immagine6.jpg)
 
 From these results, we learn that Marcantonio Chiarini was active in Vienna, while no information is available regarding the workplace of Francesco Paolo Michetti, reflecting a gap in the data. To address this, we applied the Chain of Thought technique and asked the question — ‘Which was Michetti’s work location? Let’s think step by step’ — to three large language models (ChatGPT, Gemini, and Mistral AI). The following results were obtained:
 
