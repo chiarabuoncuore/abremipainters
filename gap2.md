@@ -41,6 +41,8 @@ We retrieved the information regarding the movement associated with Marcantonio 
 
 The results revealed a slight variation between two broader suggestions of “Baroque” and one more specific reference to “Late Baroque”. To reduce the risk of inaccuracies, we ultimately chose to use the more general and commonly suggested label, associating Marcantonio Chiarini with the Baroque movement. We then prompted the three LLMs to generate relevant RDF triples to add this information to Wikidata and conducted a critical evaluation of their outputs/results.
 
+- **Triple generation**
+
 *CHAT GPT*
 
 ![sparqlchiarini](/abremipainters/assets/images/CHIARINI1.png)
@@ -59,6 +61,46 @@ Our analysis showed that all three models returned an incorrect QID for Marcanto
 
 
 **B. FRANCESCO PAOLO MICHETTI**
+
+We retrieved the information regarding the movement associated with Francesco Paolo Michetti by using a few-shot prompt, including in the examples both a widely-known and a lesser-known painter in order to maximise its efficiency: “If Marcantonio Chiarini belonged t
+o the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”
+
+*CHAT GPT*
+
+IMMAGINE
+
+*GEMINI*
+
+IMMAGINE 
+
+*MISTRAL AI*
+
+IMMAGINE 
+
+The answers didn’t provide a straightforward or unanimous result, but Realism appeared as the most commonly mentioned movement linked to Francesco Paolo Michetti. Verismo and the Scuola di Resina were suggested as subcategories, while Impressionism and Symbolism came up as possible influences. Based on this, our next step was to ask the language models to generate RDF triples that would add Realism as a movement on Michetti’s Wikidata page
+
+*CHAT GPT*
+
+IMMAGINE 
+
+*GEMINI*
+
+IMMAGINE 
+
+*MISTRAL AI* 
+
+IMMAGINE 
+
+- **MANUAL CORRECTION**
+
+Our analysis revealed that both ChatGPT and Mistral AI returned incorrect Wikidata QIDs for Francesco Paolo Michetti and the Realism movement. In contrast, the QIDs provided by Gemini were accurate. As a result, we manually refined the RDF triple as follows:
+
+IMMAGINE 
+
+- **CONCLUSION**
+
+As a result, a SPARQL query confirmed the gap we suspected existed in Wikidata regarding lesser-known painters. LLMs helped us retrieve the missing information and suggested ways to represent it using RDF triples. However, we also identified several inaccuracies in the outputs, which required manual intervention to correct and refine the data. 
+This highlights how LLMs can be powerful tools for data enrichment, but still depend on human oversight for accuracy and quality.
 
 
 
