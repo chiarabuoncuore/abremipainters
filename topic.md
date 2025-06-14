@@ -5,7 +5,7 @@ description: Two Masters, Two Regions
 ---
 
 ## M. Chiarini (Q3288556) and F. P. Michetti (Q3081044)
-We intentionally selected these painters because they embody the cultural roots of our group participants, as some of us come from the same italian regions the artists themselves hail from: Emilia Romagna and Abruzzo. This regional connection inspired us to explore artists linked to these two Italian regions. Moreover, both Chiarini and Michetti are relatively underrated and remain largely unknown to most people outside specialized art circles. Despite their significant contributions to Italian art, they have not received the widespread recognition they deserve.
+We intentionally selected these painters because they embody the cultural roots of our group participants, as some of us come from the same italian regions the artists themselves hail from: Emilia Romagna and Abruzzo. Moreover, both Chiarini and Michetti are relatively underrated artists in Italy's vast cultural landscape, and remain largely unknown to most people outside specialized art circles. Despite their significant contributions to Italian art, they have not received the widespread recognition they deserve.
 
 <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: flex-start;">
   <div style="text-align: center;">
