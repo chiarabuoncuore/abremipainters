@@ -62,8 +62,7 @@ Our analysis showed that all three models returned an incorrect QID for Marcanto
 
 **B. FRANCESCO PAOLO MICHETTI**
 
-We retrieved the information regarding the movement associated with Francesco Paolo Michetti by using a few-shot prompt, including in the examples both a widely-known and a lesser-known painter in order to maximise its efficiency: “If Marcantonio Chiarini belonged t
-o the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”
+We retrieved the information regarding the movement associated with Francesco Paolo Michetti by using a few-shot prompt, including in the examples both a widely-known and a lesser-known painter in order to maximise its efficiency: “If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”
 
 *CHAT GPT*
 
