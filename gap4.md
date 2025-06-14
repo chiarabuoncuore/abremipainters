@@ -21,20 +21,18 @@ The Wikidata Query Service produced the following results:
 
 From these results, we learn that Marcantonio Chiarini was active in Vienna, while no information is available regarding the workplace of Francesco Paolo Michetti, reflecting a gap in the data. To address this, we applied the Chain of Thought technique and asked the question — ‘Which was Michetti’s work location? Let’s think step by step’ — to three large language models (ChatGPT, Gemini, and Mistral AI). The following results were obtained:
 
-1. *CHAT GPT*
-2. h
-3. h
+*CHAT GPT*
 
 IMMAGINE 
 
 Based on these results, we generated RDF triples according to the Wikidata ontology: 
 
 
-
-
 - **Manual correction and validation of the codes:**
 
-2. *GEMINI*
+Immagine
+
+*GEMINI*
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
 
@@ -43,7 +41,7 @@ IMMAGINE
 
 In this LLM the codes were accurate, and no manual correction was required. 
 
-3. *MISTRAL AI*
+*MISTRAL AI*
 
 immagine 
 
