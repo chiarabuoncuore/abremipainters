@@ -1,5 +1,5 @@
 ---
-layout: defaulthttps://github.com/chiarabuoncuore/abremipainters/edit/master/gap2.md
+layout: default
 title: Gap 2 | Movement
 ---
 
@@ -57,7 +57,7 @@ The results revealed a slight variation between two broader suggestions of “Ba
 
 Our analysis showed that all three models returned an incorrect QID for Marcantonio Chiarini, while only Mistral generated an incorrect QID for the Baroque movement. Consequently, we manually corrected the RDF triple:
 
-![sparqlchiarini](/abremipainters/assets/images/CHIARINI4.png)
+![sparqlchiarini](/abremipainters/assets/images/CHIARINI4.png) 
 
 
 **B. FRANCESCO PAOLO MICHETTI**
