@@ -23,7 +23,9 @@ From these results, we learn that Marcantonio Chiarini was active in Vienna, whi
 
 *CHAT GPT*
 
-IMMAGINE 
+![IMAGE1](/abremipainters/assets/images/Immagine14.jpg)
+
+![IMAGE1](/abremipainters/assets/images/Immagine15.jpg)
 
 Based on these results, we generated RDF triples according to the Wikidata ontology: 
 
