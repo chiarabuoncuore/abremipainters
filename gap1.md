@@ -7,11 +7,11 @@ title: Gap 1 | Image
 
 - **What is the Gap?**
 
-This project revealed a noticeable deficiency within Wikidata: some entries are missing portrait images (P18). While exploring entries of historical italian regional artists, we found out that Marcantonio Chiarini had no associated portrait image on Wikidata
+This project revealed a noticeable deficiency within Wikidata: some entries are missing portrait images (P18). While exploring entries of historical italian regional artists, we found out that Marcantonio Chiarini had no associated portrait image on Wikidata.
 
 - **Why did we choose this Gap?**
 
-Being a relevant person in the artistic field, and more precisely a significant figure in Italian art history, the lack of important information such as the portrait underestimates his importance, and the recognition he deserves
+Being a relevant person in the artistic field, and more precisely a significant figure in Italian art history, the lack of important information such as the portrait underestimates his importance, and the recognition he deserves.
 
 - **How did we identify the Gap? (Methodology)**
 
@@ -23,13 +23,13 @@ Results:
 
 ![Image2](/abremipainters/assets/images/Immagine4.jpg)
 
-From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata
+From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata.
 
 Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding out the following image: https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special:MediaSearch&type=image
 
 
 
-From the search results, we reviewed multiple images and identified one that appears to be related to Chiarini or his artistic work
+From the search results, we reviewed multiple images and identified one that appears to be related to Chiarini or his artistic work.
 
 - **RDF Triples Creation to Fill the Gap**
 
@@ -49,7 +49,7 @@ In order to integrate the discovered image into the artist’s Wikidata profile,
 
 - **Outcome**
 
-As we can see from the comparison of the three LLMs, two of them (CHAT GPT and GEMINI)  gave us the right result, since the Q-IDs for the artist and the image are the same as the ones on Wikidata. While MISTRAL AI produced RDF with incorrect Q-IDs, so we corrected them manually
+As we can see from the comparison of the three LLMs, two of them (CHAT GPT and GEMINI)  gave us the right result, since the Q-IDs for the artist and the image are the same as the ones on Wikidata. While MISTRAL AI produced RDF with incorrect Q-IDs, so we corrected them manually.
 
 - **Q-IDs Manual Correction**
   
