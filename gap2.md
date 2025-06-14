@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaulthttps://github.com/chiarabuoncuore/abremipainters/edit/master/gap2.md
 title: Gap 2 | Movement
 ---
 
@@ -67,15 +67,15 @@ o the Baroque movement and Claude Monet belonged to Impressionism, which movemen
 
 *CHAT GPT*
 
-IMMAGINE
+![Michetti](/abremipainters/assets/images/Immagine11.jpg)
 
 *GEMINI*
 
-IMMAGINE 
+![Michetti](/abremipainters/assets/images/Immagine12.jpg)
 
 *MISTRAL AI*
 
-IMMAGINE 
+![Michetti](/abremipainters/assets/images/Immagine13.jpg)
 
 The answers didn’t provide a straightforward or unanimous result, but Realism appeared as the most commonly mentioned movement linked to Francesco Paolo Michetti. Verismo and the Scuola di Resina were suggested as subcategories, while Impressionism and Symbolism came up as possible influences. Based on this, our next step was to ask the language models to generate RDF triples that would add Realism as a movement on Michetti’s Wikidata page
 
