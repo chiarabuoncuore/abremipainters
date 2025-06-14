@@ -9,7 +9,7 @@ This KE4H project presented a series of complex challenges that required both te
 ## 1. Generating accurate SPARQL Queries
 
 ### Challenge:
-Writing **accurate SPARQL queries** for platforms like Wikidata can be challenging, especially for beginners. The complexity originates from understanding the structure of RDF data, knowing the variety of prefixes used and the way relationships between entities are modeled. Even simple questions can require nested patterns filtered with functions like <code class="language-plaintext highlighter-rouge">FILTER</code>, <code class="language-plaintext highlighter-rouge">OPTIONAL</code>, or <code class="language-plaintext highlighter-rouge">UNION</code>. A small error in syntax or logic can result in no results or misleading ones.
+Writing **accurate SPARQL queries** for platforms like <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> can be challenging, especially for beginners. The complexity originates from understanding the structure of RDF data, knowing the variety of prefixes used and the way relationships between entities are modeled. Even simple questions can require nested patterns filtered with functions like <code class="language-plaintext highlighter-rouge">FILTER</code>, <code class="language-plaintext highlighter-rouge">OPTIONAL</code>, or <code class="language-plaintext highlighter-rouge">UNION</code>. A small error in syntax or logic can result in no results or misleading ones.
 
 ### Solution:
 In order to identify gaps on Wikidata, we needed to carefully consider which meaningful queries would be most relevant and informative for each specific task. This process helped ensure that we incorporated all the necessary keywords for the project. 
@@ -28,21 +28,21 @@ Since Q-IDs are critical for targeting the right entities, such errors often req
 Understand how to add an **image** to the Wikidata entry was definitely challenging, particularly due to concerns around **copyright** and **licensing**. 
 
 ### Solution:
-Before using the selected image, we had to verify that it was freely available and appropriately licensed for reuse. To address this, we aimed to include an image of Marcantonio Chiarini and identified a suitable file on **Wikimedia Commons**: File: Ritratto di Marcantonio Chiarini (bulino).jpg. To simplify the integration, we asked ChatGPT to generate the corresponding RDF triple code for the image, which we then included in our proposal as a way to fill this gap efficiently. 
+Before using the selected image, we had to verify that it was freely available and appropriately licensed for reuse. To address this, we aimed to include an image of Marcantonio Chiarini and identified a suitable file on <a href="https://commons.wikimedia.org/wiki/Main_Page">**Wikimedia Commons**</a>: File: Ritratto di Marcantonio Chiarini (bulino).jpg. To simplify the integration, we asked ChatGPT to generate the corresponding RDF triple code for the image, which we then included in our proposal as a way to fill this gap efficiently. 
 
 ## 4. Developing and structuring the website 
 
 ### Challenge:
-As none of us had experience with building websites, neither on **GitHub** nor with **Jekyll**, the process took a lot of trial and error following thorough documentation. Making sure all the website pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
+As none of us had experience with building websites, neither on <a href="https://github.com/">**GitHub**</a> nor with **Jekyll**, the process took a lot of trial and error following thorough documentation. Making sure all the website pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
 
 ### Solution:
 After studying both the GitHub and the Jekyll documentation, we outlined a list of sub-objectives we needed to achieve. After choosing a layout we all liked and enabling the website, we went through the gradual process of adding each page’s content, and finally we concentrated on ensuring navigation ran smoothly, and that the website as a whole looked visually cohesive, so all the content was properly rendered.
 
 ## 5. Summary 
 
-- [x] Generating precise SPARQL Queries → incorporation of relevant keywords and identification of gaps on Wikidata
-- [x] Q-ID Errors in LLM Outputs → manual correction by cross-checking on Wikidata
-- [x] Inserting an image → generation of a RDF triple code to include the image in the proposal and fill the gap
-- [x] Developing and structuring the website → study of the GitHub and Jekyll documentation
+- [x]  Generating precise SPARQL Queries → incorporation of relevant keywords and identification of gaps on Wikidata
+- [x]  Q-ID Errors in LLM Outputs → manual correction by cross-checking on Wikidata
+- [x]  Inserting an image → generation of a RDF triple code to include the image in the proposal and fill the gap
+- [x]  Developing and structuring the website → study of the GitHub and Jekyll documentation
 
 [← Main Page](./)
