@@ -9,13 +9,14 @@ An artist's nationality often influences their styles and themes, therefore find
  We created the following SPARQL query using Union operator in order to find out Chiarini and Michetti’s country of citizenship.
 
 
+![Sparql query](/abremipainters/assets/images/chiarinicountryofcitizenship/SPARQLQUERYCHIARINICOUNTRYOFCITIZENSHIP.jpg)
+
 **GAP IDENTIFIED:** thanks to this SPARQL query, we discovered that Chiarini’s page did not indicate his country of citizenship.
 
-![Sparql query](/abremipainters/assets/images/chiarinicountryofcitizenship/SPARQLQUERYCHIARINICOUNTRYOFCITIZENSHIP.jpg)
 
 **2nd STEP: REQUEST THE MISSING INFORMATION TO 3 DIFFERENT LANGUAGE MODELS**
 
- after having detected the gap, we asked, through a “zero-shot prompting technique”, which was Chiarini’s country of citizenship to 3 different LLMs: Chat GPT, Gemini and Mistral.
+After having detected the gap, we asked, through a “zero-shot prompting technique”, which was Chiarini’s country of citizenship to 3 different LLMs: Chat GPT, Gemini and Mistral.
 
 - **CHATGPT**
   
