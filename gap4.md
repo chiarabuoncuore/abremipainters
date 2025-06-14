@@ -6,8 +6,11 @@ title: Gap 4 | Work Location
 Another piece of information we examined was the workplaces of the two painters, in order to gain insight into where they received their education and which influences may have shaped their artistic development. 
 
 Considering that: 
+
 *P937: is the label of the work location*
+
 *wd:Q3081044: Francesco Paolo Michetti* 
+
 *wd:Q3288556: Marcantonio Chiarini*
 
 - **We employed a SPARQL query to identify this label on wikidata**
