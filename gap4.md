@@ -34,9 +34,29 @@ Based on these results, we generated RDF triples according to the Wikidata ontol
 
 - *GEMINI*
 
+Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
+
+
 IMMAGINE
 
+In this LLM the codes were accurate, and no manual correction was required. 
+
 -*MISTRAL AI*
+
+immagine 
+
+Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
+
+-**Manual correction and validation of the codes are required**
+
+Immagine 
+
+-**CONCLUSION**
+
+ChatGPT and Mistral provided incorrect codes, whereas Gemini produced the correct ones. By comparing Gemini's results with the codes on Wikidata, we decided to manually correct the codes in ChatGPT and Mistral based on the accurate data from Wikidata. 
+
+
+
 
 
 
