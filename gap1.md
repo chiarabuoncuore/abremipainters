@@ -37,15 +37,15 @@ In order to integrate the discovered image into the artist’s Wikidata profile,
 
 1. *CHAT GPT*
    
-   ![Image3](abremipainters/assets/images/RDFTRIPLES1.png)
+   ![Image3](/abremipainters/assets/images/RDFTRIPLES1.png)
    
 2. *GEMINI*
    
-    ![Image4](abremipainters/assets/images/RDFTRIPLES2.jpg)
+    ![Image4](/abremipainters/assets/images/RDFTRIPLES2.jpg)
    
 3. *MISTRAL AI*
    
-    ![Image5](abremipainters/assets/images/RDFTRIPLES3.png)
+    ![Image5](/abremipainters/assets/images/RDFTRIPLES3.png)
 
 - **Outcome**
 
@@ -53,7 +53,7 @@ As we can see from the comparison of the three LLMs, two of them (CHAT GPT and G
 
 - **Q-IDs Manual Correction**
   
- ![Image6](abremipainters/assets/images/RDFTRIPLES4.png)
+ ![Image6](/abremipainters/assets/images/RDFTRIPLES4.png)
 
 - **Conclusion**
 A crucial gap in Wikidata concerning Marcantonio Chiarini was identified through a simple SPARQL query. To address this, and in an effort to enrich the dataset, we leveraged three different Large Language Models (LLMs) to generate the necessary RDF triples. While the LLMs provided valuable assistance in retrieving the missing information and suggesting RDF representations, one of their outputs contained inaccuracies, necessitating manual correction.
