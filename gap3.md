@@ -8,18 +8,6 @@ An artist's nationality often influences their styles and themes, therefore find
  
  We created the following SPARQL query using Union operator in order to find out Chiarini and Michetti’s country of citizenship.
 
-SELECT ?person ?personLabel ?country ?countryLabel WHERE {
-  {
-    VALUES ?person { wd:Q3288556 } # Marcantonio Chiarini
-    ?person wdt:P27 ?country.    # Country of citizenship
-  }
-  UNION
-  {
-    VALUES ?person { wd:Q3081044 } # Francesco Paolo Michetti
-    ?person wdt:P27 ?country.
-  }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
 
 **GAP IDENTIFIED:** thanks to this SPARQL query, we discovered that Chiarini’s page did not indicate his country of citizenship.
 
@@ -53,12 +41,12 @@ SELECT ?person ?personLabel ?country ?countryLabel WHERE {
 
 - **CHATGPT:**
   
-![RDF triple created by ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHAT GOT RDF TRIPLE.jpg)
+![RDF triple created by ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIINCORRECTRDF.jpg)
 
 
 - **GEMINI:**
   
-![RDF triple created by Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIINCORRECTRDF.jpg)
+![RDF triple created by Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGPTRDFTRIPLE.jpg)
 
 
  Since Chiarini’s code was incorrect, we manually refined it:
