@@ -10,7 +10,7 @@ In this KE4H project, we research the comprehensive Knowledge Graph Wikidata and
 Explore our website to follow our thought process, the steps we went through during our research, and the achieved results.
 
 ## Menu
-> * [Choice of Topic](./topic.html)
+> * [Topic](./topic.html)
 > * [Methodology](./methodology.html)
 > * [SPARQL and Prompting Techniques Used](./sparql.html)
 > * [Challenges Faced](./challenges.html)
