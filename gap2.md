@@ -27,18 +27,27 @@ To fill the GAP, we asked this information to the three LLMs at hand: using a ze
 We retrieved the information regarding the movement associated with Marcantonio Chiarini by using a zero-shot prompt: “Which movement did the painter Marcantonio Chiarini belong to?”.
 
 
-1. *CHAT GPT*
+*CHAT GPT*
 
 ![sparqlchiarini](/abremipainters/assets/images/Immagine8.jpg)
 
-2. *GEMINI*
+*GEMINI*
    
 ![sparqlchiarini](/abremipainters/assets/images/Immagine9.jpg)
  
-3. *MISTRAL AI*
+*MISTRAL AI*
 
 ![sparqlchiarini](/abremipainters/assets/images/Immagine10.jpg)
 
 The results revealed a slight variation between two broader suggestions of “Baroque” and one more specific reference to “Late Baroque”. To reduce the risk of inaccuracies, we ultimately chose to use the more general and commonly suggested label, associating Marcantonio Chiarini with the Baroque movement. We then prompted the three LLMs to generate relevant RDF triples to add this information to Wikidata and conducted a critical evaluation of their outputs/results.
+
+*CHAT GPT*
+*GEMINI*
+*MISTRAL AI*
+
+Our analysis showed that all three models returned an incorrect QID for Marcantonio Chiarini, while only Mistral generated an incorrect QID for the Baroque movement. Consequently, we manually corrected the RDF triple:
+
+
+
 
 [← Main Page](./)
