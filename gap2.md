@@ -42,10 +42,23 @@ We retrieved the information regarding the movement associated with Marcantonio 
 The results revealed a slight variation between two broader suggestions of “Baroque” and one more specific reference to “Late Baroque”. To reduce the risk of inaccuracies, we ultimately chose to use the more general and commonly suggested label, associating Marcantonio Chiarini with the Baroque movement. We then prompted the three LLMs to generate relevant RDF triples to add this information to Wikidata and conducted a critical evaluation of their outputs/results.
 
 *CHAT GPT*
+
+![sparqlchiarini](/abremipainters/assets/images/CHIARINI1.png)
+
 *GEMINI*
+
+![sparqlchiarini](/abremipainters/assets/images/CHIARINI2.png)
+
 *MISTRAL AI*
 
+![sparqlchiarini](/abremipainters/assets/images/CHIARINI3.png)
+
 Our analysis showed that all three models returned an incorrect QID for Marcantonio Chiarini, while only Mistral generated an incorrect QID for the Baroque movement. Consequently, we manually corrected the RDF triple:
+
+![sparqlchiarini](/abremipainters/assets/images/CHIARINI4.png)
+
+
+**B. FRANCESCO PAOLO MICHETTI**
 
 
 
