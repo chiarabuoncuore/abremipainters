@@ -84,5 +84,5 @@ After having verified every prefix, here’s the final and correct RDF triple:
 
 Firstly, thanks to the manual creation of a SPARQL query using “UNION” as a command, we were able to find a piece of missing information: Chiarini’s country of citizenship. Then we had the possibility to obtain this information by asking ChatGPT, Gemini and Mistral. Subsequently, we asked these LLMs to provide us with RDF triples regarding the painter’s country of citizenship. Both Gemini and Mistral’s RDF triple had to be manually refined.
 
-desc
+
 [← Main Page](./)
