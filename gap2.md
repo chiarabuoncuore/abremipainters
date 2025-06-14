@@ -5,18 +5,18 @@ title: Gap 2 | Movement
 
 **Addressing the Gap: The Missing Portrait of Marcantonio Chiarini on Wikidata**
 
-Given that artistic movements are frequently linked to prominent painters whose reputations are widely established and recognized, we questioned whether there might be a lack of information concerning lesser-known artists, such as those included in our analysis
+Given that artistic movements are frequently linked to prominent painters whose reputations are widely established and recognized, we questioned whether there might be a lack of information concerning lesser-known artists, such as those included in our analysis.
 
 - **How did we identify the Gap?**
 
-We crafted a SPARQL query to explore how the movement property (P135) is linked to both painters. By using the keywords 'OPTIONAL' and 'ORDER BY', we aimed to clearly visualize any missing information and determine which painter the gap relates to
+We crafted a SPARQL query to explore how the movement property (P135) is linked to both painters. By using the keywords 'OPTIONAL' and 'ORDER BY', we aimed to clearly visualize any missing information and determine which painter the gap relates to.
 
 ![SPARQLQUERY](/abremipainters/assets/images/Immagine5.jpg)
 
 
-Results 
+# Results 
 
-The query results revealed a gap in the 'movement' information for both painters, as illustrated in the following scheme/the scheme above
+The query results revealed a gap in the 'movement' information for both painters, as illustrated in the following scheme/the scheme above.
 
 - **Filling the Gap**
 
@@ -62,7 +62,7 @@ Our analysis showed that all three models returned an incorrect QID for Marcanto
 
 **B. FRANCESCO PAOLO MICHETTI**
 
-We retrieved the information regarding the movement associated with Francesco Paolo Michetti by using a few-shot prompt, including in the examples both a widely-known and a lesser-known painter in order to maximise its efficiency: “If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”
+We retrieved the information regarding the movement associated with Francesco Paolo Michetti by using a few-shot prompt, including in the examples both a widely-known and a lesser-known painter in order to maximise its efficiency: “If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”.
 
 *CHAT GPT*
 
@@ -76,7 +76,7 @@ We retrieved the information regarding the movement associated with Francesco Pa
 
 ![Michetti](/abremipainters/assets/images/Immagine13.jpg)
 
-The answers didn’t provide a straightforward or unanimous result, but Realism appeared as the most commonly mentioned movement linked to Francesco Paolo Michetti. Verismo and the Scuola di Resina were suggested as subcategories, while Impressionism and Symbolism came up as possible influences. Based on this, our next step was to ask the language models to generate RDF triples that would add Realism as a movement on Michetti’s Wikidata page
+The answers didn’t provide a straightforward or unanimous result, but Realism appeared as the most commonly mentioned movement linked to Francesco Paolo Michetti. Verismo and the Scuola di Resina were suggested as subcategories, while Impressionism and Symbolism came up as possible influences. Based on this, our next step was to ask the language models to generate RDF triples that would add Realism as a movement on Michetti’s Wikidata page.
 
 *CHAT GPT*
 
