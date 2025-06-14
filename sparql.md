@@ -9,7 +9,7 @@ This section presents the SPARQL queries and large language model (LLM) prompts 
 
 - *Query painter information by Name*
 
-The first query allowed us to search for regional painters whose names included “Chiarini” or “Michetti”
+The first query allowed us to search for regional painters whose names included “Chiarini” or “Michetti”.
    
 Functions used: **FILTER, REGEX AND UNION, DISTINCT, LIMIT**
 
@@ -35,7 +35,7 @@ Results:
 
 - *Query for Movement (P135) identification*
 
-Moreover, we wondered whether the artistic movement they belong to was shown in their WikiData’s page. To find it out, we developed the following SPARQL query
+Moreover, we wondered whether the artistic movement they belong to was shown in their WikiData’s page. To find it out, we developed the following SPARQL query.
 
 Functions used: **OPTIONAL, ORDER BY**
 
@@ -44,7 +44,7 @@ Functions used: **OPTIONAL, ORDER BY**
 
 - *Query for Work Location (P937) identification*
 
-We wanted to find their work locations to understand where each painter was active, crafting the following query, and adding ORDER BY to list the painters’ work locations in a clear and organized way
+We wanted to find their work locations to understand where each painter was active, crafting the following query, and adding ORDER BY to list the painters’ work locations in a clear and organized way.
 
 Functions used: **ORDER BY**
 
@@ -67,7 +67,7 @@ Function used: **UNION**
 
 - *Zero-shot Prompt*
   
-The prompt "Which movement did the painter Marcantonio Chiarini belong to?" is effective because it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous
+The prompt "Which movement did the painter Marcantonio Chiarini belong to?" is effective because it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous.
 
 *Responses:*
 
@@ -85,7 +85,7 @@ MISTRAL
 
 - *Few-shot Prompt*
 
-In the prompt "If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?", the model is given two clear examples of artists and their corresponding movements. This helps set a pattern: name → movement. The structure teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy
+In the prompt "If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?", the model is given two clear examples of artists and their corresponding movements. This helps set a pattern: name → movement. The structure teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy.
 
 *Responses:*
 
