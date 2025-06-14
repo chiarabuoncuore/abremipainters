@@ -59,6 +59,8 @@ As we can see from the comparison of the three LLMs, two of them (CHAT GPT and G
 A crucial gap in Wikidata concerning Marcantonio Chiarini was identified through a simple SPARQL query. To address this, and in an effort to enrich the dataset, we leveraged three different Large Language Models (LLMs) to generate the necessary RDF triples. While the LLMs provided valuable assistance in retrieving the missing information and suggesting RDF representations, one of their outputs contained inaccuracies, necessitating manual correction.
 Subsequent SPARQL queries confirmed the initial suspicion regarding the incompleteness of Wikidata for lesser-known painters. This process demonstrated the potential of LLMs as powerful tools for data enrichment. However, the requirement for manual intervention to correct and refine the generated data also underscored a critical point, in fact, despite their advanced capabilities, LLMs still depend on human expertise for verification and refinement in data management tasks.
 
+[← Main Page](./)
+
 
 
 
