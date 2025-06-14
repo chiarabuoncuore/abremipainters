@@ -5,7 +5,7 @@ description: A research on the regional italian painters Francesco Paolo Michett
 ---
 
 ## Introduction
-In this KE4H project, we research the comprehensive Knowledge Graph Wikidata and look for available information on regional italian painters **Marcantonio Chiarini (1652–1730)** and **Francesco Paolo Michetti (1851–1929)**. Upon identification of gaps in chosen information and visual elements (an image depicting the figures, artistic movements they belong to, country of citizenship, and work location) for either or both painters, we explored the potential ways in which such gaps could be filled.
+In this KE4H project, we research the comprehensive Knowledge Graph <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> and look for available information on regional italian painters <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">**Marcantonio Chiarini**</a> **(1652–1730)** and <a href="https://www.treccani.it/enciclopedia/francesco-paolo-michetti_%28Dizionario-Biografico%29/" target="_blank">**Francesco Paolo Michetti**</a> **(1851–1929)**. Upon identification of gaps in chosen information and visual elements (an image depicting the figures, artistic movements they belong to, country of citizenship, and work location) for either or both painters, we explored the potential ways in which such gaps could be filled.
 
 Explore our website to follow our thought process, the steps we went through during our research, and the achieved results.
 
@@ -24,10 +24,10 @@ By focusing on these two painters, we aim not only to celebrate our regional ide
 ***
 
 ## Identified Gaps 
-* [Gap 1: Image](./gap1.html)
-* [Gap 2: Movement](./gap2.html)
-* [Gap 3: Country of Citizenship](./gap3.html)
-* [Gap 4: Work Location](./gap4.html)
+> * [Gap 1: Image](./gap1.html)
+> * [Gap 2: Movement](./gap2.html)
+> * [Gap 3: Country of Citizenship](./gap3.html)
+> * [Gap 4: Work Location](./gap4.html)
 
 ***
 
@@ -38,38 +38,6 @@ By focusing on these two painters, we aim not only to celebrate our regional ide
 > * *Noemi Montebello*
 > * *Elia Orlandini*
 > * *Alessandro Scebba*
-
-***
-
-<code class="language-plaintext highlighter-rouge">VALUES</code>
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
 </dl>
 
 ```
