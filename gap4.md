@@ -45,14 +45,14 @@ Based on these results, we generated RDF triples according to the Wikidata ontol
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
 
-
-IMMAGINE
+![Imagewl](/abremipainters/assets/images/Immagine16.jpg)
 
 In this LLM the codes were accurate, and no manual correction was required. 
 
 *MISTRAL AI*
 
-immagine 
+![Imagewl](/abremipainters/assets/images/Immagine17.jpg)
+
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
 
