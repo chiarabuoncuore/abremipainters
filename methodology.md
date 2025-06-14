@@ -27,7 +27,7 @@ We crafted significant **SPARQL** queries using multiple keywords:
 <code class="language-plaintext highlighter-rouge">UNION</code>,<code class="language-plaintext highlighter-rouge">OPTIONAL</code>,<code class="language-plaintext highlighter-rouge">UNION</code>,<code class="language-plaintext highlighter-rouge">DISTINCT</code>,<code class="language-plaintext highlighter-rouge">FILTER</code>,<code class="language-plaintext highlighter-rouge">REGEX</code>,<code class="language-plaintext highlighter-rouge">ORDER BY</code>,<code class="language-plaintext highlighter-rouge">LIMIT</code>,<code class="language-plaintext highlighter-rouge">SERVICE</code>.
 
 Example:
-```sprql
+```sparql
 SELECT ?painter ?painterLabel ?movementLabel
 WHERE {
   VALUES ?painter {
