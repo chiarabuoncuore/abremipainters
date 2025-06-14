@@ -36,18 +36,24 @@ From the search results, we reviewed multiple images and identified one that app
 In order to integrate the discovered image into the artist’s Wikidata profile, we created RDF triples that describe the relationship between Marcantonio Chiarini’s Wikidata entity and the image hosted on Wikimedia Commons. These RDF triples are intended to be added to the structured data in Wikidata, using appropriate semantic web standards. At the same time to test the capabilities of different large language models (LLMs) in generating RDF triples from contextual prompts, we provided them with identical tasks. We used the zero-shot prompt in each LLM. 
 
 1. *CHAT GPT*
+   
    ![Image3](abremipainters/assets/images/RDFTRIPLES1.png)
+   
 2. *GEMINI*
-    ![Image3](abremipainters/assets/images/RDFTRIPLES2.png)
+   
+    ![Image4](abremipainters/assets/images/RDFTRIPLES2.jpg)
+   
 3. *MISTRAL AI*
-    ![Image3](abremipainters/assets/images/RDFTRIPLES3.png)
+   
+    ![Image5](abremipainters/assets/images/RDFTRIPLES3.png)
 
 - **Outcome**
 
 As we can see from the comparison of the three LLMs, two of them (CHAT GPT and GEMINI)  gave us the right result, since the Q-IDs for the artist and the image are the same as the ones on Wikidata. While MISTRAL AI produced RDF with incorrect Q-IDs, so we corrected them manually
 
 - **Q-IDs Manual Correction**
- ![Image3](abremipainters/assets/images/RDFTRIPLES4.png)
+  
+ ![Image6](abremipainters/assets/images/RDFTRIPLES4.png)
 
 - **Conclusion**
 A crucial gap in Wikidata concerning Marcantonio Chiarini was identified through a simple SPARQL query. To address this, and in an effort to enrich the dataset, we leveraged three different Large Language Models (LLMs) to generate the necessary RDF triples. While the LLMs provided valuable assistance in retrieving the missing information and suggesting RDF representations, one of their outputs contained inaccuracies, necessitating manual correction.
