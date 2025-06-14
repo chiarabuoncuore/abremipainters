@@ -3,15 +3,15 @@ layout: default
 title: SPARQL and LLM Prompts 
 description: Techniques Used
 ---
-This section presents the SPARQL queries and large language model (LLM) prompts employed to check, select and enrich Charini and Michetti's information on Wikidata. Our objective was to uncover gaps in Wikidata's coverage of such artists. To achieve this, we utilized three distinct prompting strategies (zero-shot prompt, few-shot prompt and chain-of-thought prompt), each designed to probe Wikidata’s existing records and generate supplementary RDF triples where omissions were detected.
+This section presents the **SPARQL queries** and **Large Language Model (LLM) prompts** employed to check, select and enrich <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Chiarini</a> and <a href="https://www.treccani.it/enciclopedia/francesco-paolo-michetti_%28Dizionario-Biografico%29/" target="_blank">Michetti</a>'s information on <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>. Our objective was to uncover gaps in Wikidata's coverage of such artists. To achieve this, we utilized three distinct prompting strategies (<code class="language-plaintext highlighter-rouge">zero-shot prompt</code>, <code class="language-plaintext highlighter-rouge">few-shot prompt</code> and <code class="language-plaintext highlighter-rouge">chain-of-thought prompt</code>), each designed to probe Wikidata’s existing records and generate supplementary RDF triples where omissions were detected.
 
-**SPARQL QUERIES** 
+## SPARQL Queries
 
-- *Query painter information by Name*
+### Query painter information by Name
 
 The first query allowed us to search for regional painters whose names included “Chiarini” or “Michetti”.
    
-Functions used: **FILTER, REGEX AND UNION, DISTINCT, LIMIT**
+Functions used: <code class="language-plaintext highlighter-rouge">FILTER</code>, <code class="language-plaintext highlighter-rouge">REGEX</code>, <code class="language-plaintext highlighter-rouge">UNION</code>, <code class="language-plaintext highlighter-rouge">DISTINCT</code>, <code class="language-plaintext highlighter-rouge">LIMIT</code>.
 
 ![Image1SPARQLquery](/abremipainters/assets/images/Immagine1.jpg)
 
@@ -19,13 +19,11 @@ The results displayed by this SPARQL query are the following:
 
 ![Image2SPARQLquery](/abremipainters/assets/images/Immagine2.jpg)
 
+### Query for Image <code class="language-plaintext highlighter-rouge">(P18)</code> identification
 
+In order to find out if Wikidata provides the images of the two italian painters, we asked it to create a SPARQL query, enabling us to discover that Chiarini’s image was missing. ?????????????????
 
-- *Query for Image (P18) identification*
-
-In order to find out if wikidata provides the images of the two italian painters, we asked it to create a SPARQL query, enabling us to discover that Chiarini’s image was missing.
-
-Functions used: **DISTINCT, ORDER BY**
+Functions used: <code class="language-plaintext highlighter-rouge">DISTINCT</code>, <code class="language-plaintext highlighter-rouge">ORDER BY</code>.
 
 ![Image3](/abremipainters/assets/images/Immagine3.jpg)
 
@@ -33,90 +31,90 @@ Results:
 
 ![Image4](/abremipainters/assets/images/Immagine4.jpg)
 
-- *Query for Movement (P135) identification*
+### Query for Movement <code class="language-plaintext highlighter-rouge">(P135)</code> identification
 
-Moreover, we wondered whether the artistic movement they belong to was shown in their WikiData’s page. To find it out, we developed the following SPARQL query.
+Additionally, we wondered whether the artistic movement the painters belong to was shown in their Wikidata’s page. To find out, we developed the following SPARQL query.
 
-Functions used: **OPTIONAL, ORDER BY**
-
+Functions used: <code class="language-plaintext highlighter-rouge">OPTIONAL</code>, <code class="language-plaintext highlighter-rouge">ORDER BY</code>.
 
 ![Image4](/abremipainters/assets/images/Immagine5.jpg)
 
-- *Query for Work Location (P937) identification*
+### Query for Work Location <code class="language-plaintext highlighter-rouge">(P937)</code> identification
 
-We wanted to find their work locations to understand where each painter was active, crafting the following query, and adding ORDER BY to list the painters’ work locations in a clear and organized way.
+We wanted to find their work locations to understand where each painter was active, crafting the following query, and using the keyword <code class="language-plaintext highlighter-rouge">ORDER BY</code> to list the painters’ work locations in a clear and organized way.
 
-Functions used: **ORDER BY**
+Functions used: <code class="language-plaintext highlighter-rouge">ORDER BY</code>
 
 ![Image4](/abremipainters/assets/images/Immagine6.jpg)
 
+### Query for Country of Citizenship <code class="language-plaintext highlighter-rouge">(P27)</code> identification
 
-- *Query for Country of Citizenship (P27) identification*
+We used the keyword <code class="language-plaintext highlighter-rouge">UNION</code> to retrieve the country of citizenship for both painters at once. This allowed us to retrieve their respective countries of citizenship efficiently without running separate queries.
 
-We used a UNION query to retrieve the country of citizenship for both painters at once. his allows retrieving their respective countries of citizenship efficiently without running separate queries.
-
-Function used: **UNION**
+Function used: <code class="language-plaintext highlighter-rouge">UNION</code>
 
 ![Image4](/abremipainters/assets/images/Immagine7.jpg)
 
----
+***
 
+## LLMs Prompting Techniques
 
-**LLMs Prompting Techniques**
-
-
-- *Zero-shot Prompt*
+### 1. Zero-shot Prompt
   
-The prompt "Which movement did the painter Marcantonio Chiarini belong to?" is effective because it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous.
+<pre><code>"Which movement did the painter Marcantonio Chiarini belong to?"</code></pre>
+This prompt proves effective as it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous.
 
-*Responses:*
+### Responses:
 
-CHATGPT
+1. CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine8.jpg)
 
-GEMINI
+2. GEMINI
 
 ![Image4](/abremipainters/assets/images/Immagine9.jpg)
 
-MISTRAL
+3. MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine10.jpg)
 
-- *Few-shot Prompt*
+### 2. Few-shot Prompt
 
-In the prompt "If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?", the model is given two clear examples of artists and their corresponding movements. This helps set a pattern: name → movement. The structure teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy.
+<pre><code>"If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?"</code></pre>
+With this prompt, the LLM is given two clear examples of a well-known and lesser-known artist and their corresponding movements. This helps set a pattern: <code class="language-plaintext highlighter-rouge">name → movement</code> which teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy.
 
-*Responses:*
+### Responses:
 
-CHATGPT
+1. CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine11.jpg)
 
-GEMINI
+2. GEMINI
 
 ![Image4](/abremipainters/assets/images/Immagine12.jpg)
 
-MISTRAL
+3. MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine13.jpg)
 
-- *Chain-of-Thought Prompt*:
+### 3. Chain-of-Thought Prompt
 
-Encourages the model to think step by step before producing a final answer. Useful for reasoning tasks, like math, logic, or multi-step problems.
+<pre><code>"Which was Michetti’s work location? Let’s think step by step."</code></pre>
+
+This kind of prompt encourages the LLM to think step by step before producing a final answer. It proves useful for reasoning tasks, like math, logic, or multi-step problems.
 
 *Responses*
 
-CHATGPT
+1. CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine14.jpg)
 ![Image4](/abremipainters/assets/images/Immagine15.jpg)
 
-GEMINI
+2. GEMINI
 
 ![Image4](/abremipainters/assets/images/Immagine16.jpg)
 
-MISTRAL
+3. MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine17.jpg)
 
