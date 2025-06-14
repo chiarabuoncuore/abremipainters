@@ -59,13 +59,13 @@ In this LLM the codes were accurate, and no manual correction was required.
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following:
 
-![Imagewl](/abremipainters/assets/images/rdftripleserratimistral.jpg)
+![Imagewl](/abremipainters/assets/images/rdftripleserratimistral.png)
 
 
 - **Manual correction and validation of the codes are required**
 
-![Imagewl](/abremipainters/assets/images/gap4ultimaimmagine.jpg)
-
+![Imagewl](/abremipainters/assets/images/gap4ultimaimmagine.png)
+ 
 - **CONCLUSION**
 
 ChatGPT and Mistral provided incorrect codes, whereas Gemini produced the correct ones. By comparing Gemini's results with the codes on Wikidata, we decided to manually correct the codes in ChatGPT and Mistral based on the accurate data from Wikidata. 
