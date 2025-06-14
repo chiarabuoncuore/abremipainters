@@ -29,12 +29,19 @@ From these results, we learn that Marcantonio Chiarini was active in Vienna, whi
 
 Based on these results, we generated RDF triples according to the Wikidata ontology: 
 
+![Imagewl](/abremipainters/assets/images/rdfworllocation1.png)
+
+![Imagewl](/abremipainters/assets/images/rdfworllocation2.png)
+
 
 - **Manual correction and validation of the codes:**
 
-Immagine
+![Imagewl](/abremipainters/assets/images/rdfworllocation3.png)
+
 
 *GEMINI*
+
+- **RDF Triples Creation**
 
 Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
 
