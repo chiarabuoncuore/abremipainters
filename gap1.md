@@ -25,7 +25,7 @@ Results:
 
 From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata.
 
-Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding out the following image: https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special:MediaSearch&type=image
+Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding out the following image: <a href="https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special:MediaSearch&type=image </a>
 
 
 
