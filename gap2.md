@@ -81,21 +81,21 @@ The answers didn’t provide a straightforward or unanimous result, but Realism 
 
 *CHAT GPT*
 
-![Michetti1](abremipainters/assets/images/Michetti1.png)
+![Michetti1](/abremipainters/assets/images/Michetti1.png)
 
 *GEMINI*
 
-![Michetti1](abremipainters/assets/images/Michetti2.png)
+![Michetti1](/abremipainters/assets/images/Michetti2.png)
 
 *MISTRAL AI* 
 
-![Michetti1](abremipainters/assets/images/Michetti3.png)
+![Michetti1](/abremipainters/assets/images/Michetti3.png)
 
 - **MANUAL CORRECTION**
 
 Our analysis revealed that both ChatGPT and Mistral AI returned incorrect Wikidata QIDs for Francesco Paolo Michetti and the Realism movement. In contrast, the QIDs provided by Gemini were accurate. As a result, we manually refined the RDF triple as follows:
 
-![Michetti1](abremipainters/assets/images/Michetti4.png)
+![Michetti1](/abremipainters/assets/images/Michetti4.png)
 
 
 - **CONCLUSION**
