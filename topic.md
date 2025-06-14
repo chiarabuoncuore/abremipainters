@@ -8,7 +8,7 @@ description: Two Masters, Two Regions
 We intentionally selected these painters because they embody the cultural roots of our group. Half of us come from Emilia Romagna, while the other half come from Abruzzo. This regional connection inspired us to explore artists linked to these two Italian regions. Moreover, both Chiarini and Michetti are relatively underrated and remain largely unknown to most people outside specialized art circles. Despite their significant contributions to Italian art, they have not received the widespread recognition they deserve.
 
 <figure>
-    <img src="/abremipainters/assets/image/Michetti_fp.jpg" width="295" height="359"
+    <img src="/abremipainters/assets/images/Michetti_fp.jpg" width="295" height="359"
          alt="Michetti's Portrait">
     <figcaption> Portrait of Francesco Paolo Michetti.</figcaption>
 </figure>
