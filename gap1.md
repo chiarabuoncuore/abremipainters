@@ -25,9 +25,9 @@ Results:
 
 From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata
 
-Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons using the search query:
+Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding out the following image: https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special:MediaSearch&type=image
 
-🔗 Search: “Marcantonio Chiarini” on Commons
+
 
 From the search results, we reviewed multiple images and identified one that appears to be related to Chiarini or his artistic work
 
@@ -36,6 +36,15 @@ From the search results, we reviewed multiple images and identified one that app
 In order to integrate the discovered image into the artist’s Wikidata profile, we created RDF triples that describe the relationship between Marcantonio Chiarini’s Wikidata entity and the image hosted on Wikimedia Commons. These RDF triples are intended to be added to the structured data in Wikidata, using appropriate semantic web standards. At the same time to test the capabilities of different large language models (LLMs) in generating RDF triples from contextual prompts, we provided them with identical tasks. We used the zero-shot prompt in each LLM. 
 
 
+![Image2](/abremipainters/assets/images/Immagine3.jpg)
+
+![Image2](/abremipainters/assets/images/Immagine4.jpg)
+
+![Image2](/abremipainters/assets/images/Immagine5.jpg)
+
+![Image2](/abremipainters/assets/images/Immagine6.jpg)
+
+![Image2](/abremipainters/assets/images/Immagine7.jpg)
 
 
 
