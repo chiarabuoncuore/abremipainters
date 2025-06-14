@@ -55,7 +55,7 @@ Immagine
 
 ChatGPT and Mistral provided incorrect codes, whereas Gemini produced the correct ones. By comparing Gemini's results with the codes on Wikidata, we decided to manually correct the codes in ChatGPT and Mistral based on the accurate data from Wikidata. 
 
-
+[← Main Page](./)
 
 
 
