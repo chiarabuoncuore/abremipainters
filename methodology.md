@@ -31,7 +31,7 @@ Example:
 SELECT ?painter ?painterLabel ?movementLabel
 WHERE {
   VALUES ?painter {
-    wd:Q3081044 wd: Q3288556
+    wd:Q3081044 wd:Q3288556
   }
   OPTIONAL { ?painter wdt:P135 ?movement . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
