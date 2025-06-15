@@ -5,7 +5,7 @@ description:
 ---
 
 ## Goal
-The primary goal of our project was to combine **Knowledge Graphs** and **Large Language Models** to enrich and complete structured information in the realm of art history in <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, with a specific focus on two regional painters: <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Marcantonio Chiarini</a> and <a href="https://www.treccani.it/enciclopedia/francesco-paolo-michetti_%28Dizionario-Biografico%29/" target="_blank">Francesco Paolo Michetti</a>. Our choice aimed at exploring the effectiveness of Wikidata and LLMs in handling less globally known figures, highlighting potential disparities in data completeness and evaluating the quality and reliability of the outputs suggested by LLMs.
+The primary goal of our project was to combine **Knowledge Graphs** and **Large Language Models** to enrich and complete structured information in the realm of art history in <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a>, with a specific focus on two regional painters: <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Marcantonio Chiarini</a> and <a href="https://www.treccani.it/enciclopedia/francesco-paolo-michetti_%28Dizionario-Biografico%29/" target="_blank">Francesco Paolo Michetti</a>. Our choice aimed at exploring the effectiveness of Wikidata and LLMs in handling less globally known figures, highlighting potential disparities in data completeness and evaluating the quality and reliability of the outputs suggested by LLMs.
 
 ***
 
@@ -21,7 +21,7 @@ We then applied this framework to the two painters in question: Marcantonio Chia
 ***
 	
 ### STEP 1: Crafting SPARQL queries
-We used <a href="https://query.wikidata.org/">**Wikidata Query Service**</a> to extract existing data and identify missing information.
+We used <a href="https://query.wikidata.org/" target="_blank">**Wikidata Query Service**</a> to extract existing data and identify missing information.
 
 We crafted significant **SPARQL** queries using multiple keywords:
 <code class="language-plaintext highlighter-rouge">UNION</code>,<code class="language-plaintext highlighter-rouge">OPTIONAL</code>,<code class="language-plaintext highlighter-rouge">UNION</code>,<code class="language-plaintext highlighter-rouge">DISTINCT</code>,<code class="language-plaintext highlighter-rouge">FILTER</code>,<code class="language-plaintext highlighter-rouge">REGEX</code>,<code class="language-plaintext highlighter-rouge">ORDER BY</code>,<code class="language-plaintext highlighter-rouge">LIMIT</code>,<code class="language-plaintext highlighter-rouge">SERVICE</code>.
@@ -43,9 +43,9 @@ This query allowed us to explore how the movement property <code class="language
 
 ### STEP 2: Prompting LLMS 
 We prompted three Large Language Models:
-* <a href="https://chatgpt.com/">**ChatGPT**</a>
-* <a href="https://gemini.google.com/">**Gemini**</a>
-* <a href="https://chat.mistral.ai/chat">**Mistral AI**</a>
+* <a href="https://chatgpt.com/" target="_blank">**ChatGPT**</a>
+* <a href="https://gemini.google.com/" target="_blank">**Gemini**</a>
+* <a href="https://chat.mistral.ai/chat" target="_blank">**Mistral AI**</a>
 
 to retrieve the missing information using three distinct **prompting techniques**, each tailored to the type of information being requested:
 
