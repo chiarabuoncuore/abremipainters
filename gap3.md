@@ -44,15 +44,15 @@ After detecting the gap, we asked the chosen LLMs to indicate Chiarini’s count
 If the country of citizenship of Giovanni Battista Tiepolo was the Republic of Venice and the country of citizenship of Caravaggio was the Duchy of Milan, which was the country of citizenship of painter Marcantonio Chiarini?
 ```
 
-### 1. **CHATGPT**
+### 1. *CHATGPT*
   
 ![question to ChatGPT](/abremipainters/assets/images/chatcoc.jpg)
 
-### 2. **GEMINI**
+### 2. *GEMINI*
   
 ![question to Gemini](/abremipainters/assets/images/geminicoc.jpg)
 
-### 3. **MISTRAL AI**
+### 3. *MISTRAL AI*
   
 ![question to Mistral](/abremipainters/assets/images/mistralcoc.png)
 
@@ -62,15 +62,15 @@ As can be seen, LLMS ChatGPT and Gemini provided the generally and historically 
 
 We then prompted the three LLMs to generate meaningful **RDF triples** containing the discovered information. 
 
-### 1. **CHATGPT**
+### 1. *CHATGPT*
   
 ![question to ChatGPT](/abremipainters/assets/images/chatrdfcoc.jpg)
 
-### 2. **GEMINI**
+### 2. *GEMINI*
   
 ![question to Gemini](/abremipainters/assets/images/geminirdfcoc.png)
 
-### 3. **MISTRAL AI**
+### 3. *MISTRAL AI*
   
 ![question to Mistral](/abremipainters/assets/images/mistralrdfcoc.png)
 
