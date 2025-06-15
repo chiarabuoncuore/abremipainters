@@ -17,7 +17,19 @@ Being a relevant person in the artistic field, and more precisely a significant 
 
 To pinpoint the gap on Wikidata, we utilized a SPARQL query. Specifically, we designed a query to investigate how the image property (P18) is associated with both painters. By incorporating the 'ORDER BY' clause, we were able to effectively highlight any missing data and identify which painter the gap pertains to.
 
-![Image1](/abremipainters/assets/images/Immagine3.jpg) 
+![Image1](/abremipainters/assets/images/Immagine3.jpg) da togliere 
+
+```sparql
+SELECT DISTINCT ?painter ?painterLabel ?image ?imageLabel
+WHERE {
+  VALUES ?painter {
+    wd:Q3081044 wd:Q3288556
+  }
+  ?painter wdt:P18 ?image .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?painterLabel
+```
 
 Results: 
 
@@ -25,11 +37,7 @@ Results:
 
 From the query, we found out that Marcantonio Chiarini’s image is missing on Wikidata.
 
-Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding out the following image: 
-[Click here to see the image](https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special:MediaSearch&type=image) 
-   
-
-
+Since there is no image associated with Marcantonio Chiarini on Wikidata (P18 property is missing), we performed a manual search on Wikimedia Commons, finding <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg/640px-Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg" target="_blank">this</a> image. 
 
 From the search results, we reviewed multiple images and identified one that appears to be related to Chiarini or his artistic work.
 
