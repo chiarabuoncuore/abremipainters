@@ -27,7 +27,7 @@ ORDER BY ?painterLabel
 
 The query results revealed a gap in the 'movement' information for both painters, as illustrated below.
 
-IMMAGINE RISULTATI gap2
+![resquerygap2](/abremipainters/assets/images/resquerygap2.jpg)
 
 ## Retrieving the information:
 
