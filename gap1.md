@@ -24,7 +24,8 @@ ORDER BY ?painterLabel
 ```
 
 ### Results: 
-IMMAGINE NUOVA 
+
+![Results](/abremipainters/assets/images/resquerygap1.png)
 
 The query showed the lack of Marcantonio Chiarini's image on Wikidata. Therefore, we performed a manual search on <a href="https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special%3AMediaSearch&type=image" target="_blank">Wikimedia Commons</a>. From the search results, we reviewed multiple images and identified <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg/640px-Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg">one</a> that appears to be related to Chiarini or his artistic work.
 
@@ -34,21 +35,21 @@ In order to integrate the discovered image into the artist’s Wikidata profile,
 
 ### 1. *CHAT GPT*
 
-![Image3](/abremipainters/assets/images/RDFTRIPLES1.png) RITAGLIA E TOGLI
+![Chat](/abremipainters/assets/images/RDFTRIPLES1.png) RITAGLIA E TOGLI
    
 ### 2. *GEMINI*
    
-![Image4](/abremipainters/assets/images/RDFTRIPLES2.jpg) 
+![Gemini](/abremipainters/assets/images/RDFTRIPLES2.jpg) 
    
 ### 3. *MISTRAL AI*
 
-![Image5](/abremipainters/assets/images/RDFTRIPLES3.png)
+![Mistral](/abremipainters/assets/images/RDFTRIPLES3.png)
 
 ## Manual correction:
 
 As we can see from the comparison of the three LLMs, two of them (CHAT GPT and GEMINI) gave us the right result, since the **Q-IDs** for the artist and the image are the same as the ones on Wikidata. Conversely, MISTRAL AI produced an RDF triple with incorrect Q-IDs, so we corrected it manually.
 
-![Image6](/abremipainters/assets/images/RDFTRIPLES4.png)
+![Mistralcorrect](/abremipainters/assets/images/RDFTRIPLES4.png)
 
 ## Conclusion: 
 
