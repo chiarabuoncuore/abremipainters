@@ -35,7 +35,7 @@ In order to integrate the discovered image into the artist’s Wikidata profile,
 
 ### 1. *CHAT GPT*
 
-![Chat](/abremipainters/assets/images/RDFTRIPLES1.png) RITAGLIA E TOGLI
+![Chat](/abremipainters/assets/images/RDFTRIPLES1.png)
    
 ### 2. *GEMINI*
    
