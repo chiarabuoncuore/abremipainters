@@ -51,16 +51,16 @@ We prompted three Large Language Models:
 to retrieve the missing information using three distinct **prompting techniques**, each tailored to the type of information being requested:
 
 <ol>
-  <li><strong>Zero-shot prompting</strong></li> 
+  <li><strong>Zero-shot prompt</strong></li> 
   <p>→ direct questions with no prior examples provided.</p>
   <p><pre><code>“Which movement did Marcantonio Chiarini belong to?”</code></pre></p>
   <p>→ typically simple, factual answers requiring no context or reasoning.</p> 
-  <li><strong>Few-shot prompting</strong></li>
+  <li><strong>Few-shot prompt</strong></li>
   <p>→ providing examples to guide the answer toward a significant one.</p>
   <p><pre><code>"If the country of citizenship of Giovanni Battista Tiepolo was the Republic of Venice and the country of citizenship of Caravaggio was the Duchy of Milan, which was the country of citizenship of painter Marcantonio Chiarini?"</code></pre></p>
   <p><pre><code>“If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?”</code></pre></p>
   <p>→ since movements are typically associated with major painters, we encouraged an answer providing examples including both a well known and a less known painter.</p>
-  <li><strong>Chain-of-Thought Prompting</strong></li>
+  <li><strong>Chain-of-Thought prompt</strong></li>
   <p>→ encouraging the LLMs to explain their reasoning step by step.</p>
   <p><pre><code>"Which was Michetti’s work location? Let’s think step by step."</code></pre></p>
   <p>→ identifying the painter’s work location may require interpreting his biography and career path to deduce a consistent answer.</p>
