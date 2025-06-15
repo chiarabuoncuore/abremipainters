@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Where Art Meets Data – Rediscovering the Overlooked
-description: A research on the regional italian painters Francesco Paolo Michetti and Marcantonio Chiarini
+description: A research on regional italian painters Marcantonio Chiarini and Francesco Paolo Michetti
 ---
 
 ## Introduction
