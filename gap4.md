@@ -35,85 +35,50 @@ From these results, we learn that Marcantonio Chiarini was active in Vienna, whi
 
 To address the missing data, we asked the three LLMs with the <code class="language-plaintext highlighter-rouge">chain-of-thought prompt</code> the following question: 
 
-Which was Francesco Paolo Michetti’s work location? Let’s think step by step. 
+```
+Which was Francesco Paolo Michetti’s work location? Let’s think step by step.
+```
+
+### 1. *CHATGPT*
+
+![chatquestion1](/abremipainters/assets/images/chatworkloc1.jpg)
+![chatquestion2](/abremipainters/assets/images/chatworkloc2.jpg)
+![chatquestion3](/abremipainters/assets/images/chatworkloc3.jpg)
+
+### 2. _GEMINI_
+
+![geminiquestion](/abremipainters/assets/images/geminiworkloc.png)
+
+### 3. _MISTRAL AI_
+
+![mistralquestion](/abremipainters/assets/images/mistralworkloc.png)
+
+All LLMs, according to the prompting technique used, generated detailed answers providing multiple pieces of information, however the bottom line is visible in the way all three ultimately describe **Francavilla al Mare** as Michetti's primary work location. 
 
 ## Filling the gap: creating RDF triples 
 
-## Manual correction
+We then prompted the three LLMs to generate **RDF triples** based on Wikidata ontology, to represent the missing information.  
 
-## Conclusion
-
-
-Considering that: 
-
-*P937: is the label of the work location*
-
-*wd:Q3081044: Francesco Paolo Michetti* 
-
-*wd:Q3288556: Marcantonio Chiarini*
-
-
-
-- **We employed a SPARQL query to identify this label on wikidata**
-
-The Wikidata Query Service produced the following results: 
-
-![IMAGE1](/abremipainters/assets/images/Immagine6.jpg)
-
-From these results, we learn that Marcantonio Chiarini was active in Vienna, while no information is available regarding the workplace of Francesco Paolo Michetti, reflecting a gap in the data. To address this, we applied the Chain of Thought prompting technique and asked the question — ‘Which was Michetti’s work location? Let’s think step by step’ — to three large language models (ChatGPT, Gemini, and Mistral AI). The following results were obtained:
-
-*CHAT GPT*
-
-![IMAGE1](/abremipainters/assets/images/Immagine14.jpg)
-
-![IMAGE1](/abremipainters/assets/images/Immagine15.jpg)
-
-- **RDF Triples Creation**
-
-Based on these results, we generated RDF triples according to the Wikidata ontology: 
+### 1. *CHATGPT*
 
 ![Imagewl](/abremipainters/assets/images/rdfworllocation1.png)
 
-![Imagewl](/abremipainters/assets/images/rdfworllocation2.png)
+### 2. _GEMINI_
 
+![Imageine](/abremipainters/assets/images/geminirdfworkloc.png)
 
-- **Manual correction and validation of the codes:**
+### 3. _MISTRAL AI_
 
-![Imagewl](/abremipainters/assets/images/rdfworklocatrion3.png)
+![Imagewl](/abremipainters/assets/images/mistralrdfworkloc.png)
 
+## Manual correction
 
-*GEMINI*
+Since the LLMs returned mostly incorrect Q-IDs for Francesco Paolo Michetti <code class="language-plaintext highlighter-rouge">(Q3081044)</code> and Francavilla al Mare <code class="language-plaintext highlighter-rouge">(Q51225)</code>, as well as redundant information in general (ChatGPT), we manually refined the RDF triple as follows:
 
-![Imagewl](/abremipainters/assets/images/Immagine16.jpg)
+![Imagewl](/abremipainters/assets/images/correctedrdfworkloc.jpg)
 
-Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following: 
+## Conclusion
 
-![Imageine](/abremipainters/assets/images/WORKLOCATION.png)
-
-
-In this LLM the codes were accurate, and no manual correction was required. 
-
-*MISTRAL AI*
-
-![Imagewl](/abremipainters/assets/images/Immagine17.jpg)
-
-
-Based on these results, we generated RDF triples according to the Wikidata ontology and obtained the following:
-
-![Imagewl](/abremipainters/assets/images/rdftripleserratimistral.png)
-
-
-- **Manual correction and validation of the codes are required**
-
-![Imagewl](/abremipainters/assets/images/gap4ultimaimmagine.png)
- 
-- **CONCLUSION**
-
-ChatGPT and Mistral provided incorrect codes, whereas Gemini produced the correct ones. By comparing Gemini's results with the codes on Wikidata, we decided to manually correct the codes in ChatGPT and Mistral based on the accurate data from Wikidata. 
+To conclude, a SPARQL query displayed lack of information in the field of work location for painter Francesco Paolo Michetti. After questioning the LLMs and retrieving such missing information, we also prompted them to provide RDF triples to hypothetically fix the gap on the KG. However, results showed that the chain-of-thought prompting technique increased the incorrectness of LLMs outputs, as not only were some Q-IDs inaccurate, but excess information was also given. This led to the manual correction and refinement of the data, highlighting the limits of LLMs in such field. 
 
 [← Main Page](./)
-
-
-
-
-
