@@ -213,7 +213,7 @@ This kind of prompt encourages the LLM to think step by step before producing a 
 
 ### Commentary:
 
-Once again, where Gemini provides a brief and direct reply, ChatGPT and Mistral AI offer slightly broader answers, exploring on the one hand all the artist's possible connections with artistic movements and motivating them, and on the other hand the characteristics of the movement itself.
+In this last case, Gemini provided a less extensive answer than expected, confirming itself to be the most concise of the three LLMs in terms of responses given, regardless of the prompign technique used. ChatGPT and Mistral AI generated longer and exhaustive responses with detailed paragraphs outlining the various stages of the painters' life and career. 
 
 ***
 
