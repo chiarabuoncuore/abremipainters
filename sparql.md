@@ -137,66 +137,83 @@ This allowed us to discover that Francesco Paolo Michetti is missing information
 
 ***
 
-## LLMs Prompting Techniques
+## LLM Prompting Techniques
 
 ### 1. Zero-shot Prompt
   
 <pre><code>"Which movement did the painter Marcantonio Chiarini belong to?"</code></pre>
+
 This prompt proves effective as it clearly identifies the subject, uses precise language to signal the type of answer expected (an artistic movement), and is concise and unambiguous.
 
 ### Responses:
 
-1. CHATGPT
+### 1. CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine8.jpg)
 
-2. GEMINI
+### 2. GEMINI
 
 ![Image4](/abremipainters/assets/images/Immagine9.jpg)
 
-3. MISTRAL
+### 3. MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine10.jpg)
+
+### Commentary:
+
+While Gemini gives a more direct and concise answer, ChatGPT and Mistral AI provide longer responses with, respectively, more context but excess information on the painter which isn't strictly useful for the original enquiry, and additional context describing the art movement itself. 
 
 ### 2. Few-shot Prompt
 
 <pre><code>"If Marcantonio Chiarini belonged to the Baroque movement and Claude Monet belonged to Impressionism, which movement did Francesco Paolo Michetti belong to?"</code></pre>
-With this prompt, the LLM is given two clear examples of a well-known and lesser-known artist and their corresponding movements. This helps set a pattern: <code class="language-plaintext highlighter-rouge">name → movement</code> which teaches the model what kind of answer is expected. It narrows down ambiguity, encourages analogical reasoning, and improves accuracy.
+
+With this prompt, the LLM is given two clear examples of at the same time a well-known and a lesser-known artist and the corresponding artistic movements. This helps set the pattern <code class="language-plaintext highlighter-rouge">name → movement</code>, teaching the model what kind of answer is expected. It's meant to narrow down ambiguity, encourage analogical reasoning, and improve accuracy and conciseness. 
 
 ### Responses:
 
-1. CHATGPT
+### 1. CHATGPT
 
 ![Image4](/abremipainters/assets/images/Immagine11.jpg)
 
-2. GEMINI
+### 2. GEMINI
 
 ![Image4](/abremipainters/assets/images/Immagine12.jpg)
 
-3. MISTRAL
+### 3. MISTRAL
 
 ![Image4](/abremipainters/assets/images/Immagine13.jpg)
 
+### Commentary:
+
+Once again, where Gemini provides a brief and direct reply, ChatGPT and Mistral AI offer slightly broader answers, exploring on the one hand all the artist's possible connections with artistic movements and motivating them, and on the other hand the characteristics of the movement itself.
+
+It's interesting to note, given that the questions provided as examples feature the same topic (artistic movement), how the two prompting techniques lead to different results: the zero-shot one provided, as seen above, two longer replies, while the few-shot one generated more concise answers, yet still including some excess information, either about the painter or the artistic movement. 
+
 ### 3. Chain-of-Thought Prompt
 
-<pre><code>"Which was Michetti’s work location? Let’s think step by step."</code></pre>
+<pre><code>"Which was Francesco Paolo Michetti’s work location? Let’s think step by step."</code></pre>
 
-This kind of prompt encourages the LLM to think step by step before producing a final answer. It proves useful for reasoning tasks, like math, logic, or multi-step problems.
+This kind of prompt encourages the LLM to think step by step before producing a final answer. It proves useful in this context, since establishing the painters' work location may imply a more in-depth research about their biography, such as considering whether they lived, studied or worked abroad, if they traveled much, and more. 
 
-*Responses*
+### Responses:
 
-1. CHATGPT
+### 1. *CHATGPT*
 
-![Image4](/abremipainters/assets/images/Immagine14.jpg)
-![Image4](/abremipainters/assets/images/Immagine15.jpg)
+![chatquestion1](/abremipainters/assets/images/chatworkloc1.jpg)
+![chatquestion2](/abremipainters/assets/images/chatworkloc2.jpg)
+![chatquestion3](/abremipainters/assets/images/chatworkloc3.jpg)
 
-2. GEMINI
+### 2. _GEMINI_
 
-![Image4](/abremipainters/assets/images/Immagine16.jpg)
+![geminiquestion](/abremipainters/assets/images/geminiworkloc.png)
 
-3. MISTRAL
+### 3. _MISTRAL AI_
 
-![Image4](/abremipainters/assets/images/Immagine17.jpg)
+![mistralquestion](/abremipainters/assets/images/mistralworkloc.png)
+
+### Commentary:
+
+Once again, where Gemini provides a brief and direct reply, ChatGPT and Mistral AI offer slightly broader answers, exploring on the one hand all the artist's possible connections with artistic movements and motivating them, and on the other hand the characteristics of the movement itself.
 
 ***
 
