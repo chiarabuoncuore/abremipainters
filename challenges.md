@@ -28,7 +28,7 @@ Since Q-IDs are critical for targeting the right entities, such errors often req
 Understand how to add an **image** to the Wikidata entry was definitely challenging, particularly due to concerns around **copyright** and **licensing**. 
 
 ### Solution:
-Before using the selected image, we had to verify that it was freely available and appropriately licensed for reuse. To address this, we aimed to include an image of Marcantonio Chiarini and identified a suitable file on <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">**Wikimedia Commons**</a>: File: Ritratto di Marcantonio Chiarini (bulino).jpg. To simplify the integration, we asked <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> to generate the corresponding RDF triple code for the image, which we then included in our proposal as a way to fill this gap efficiently. 
+Before using the selected image, we had to verify that it was freely available and appropriately licensed for reuse. To address this, we aimed to include an image of Marcantonio Chiarini and identified a suitable <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg/640px-Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg" target="_blank">file</a> on <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">**Wikimedia Commons**</a>. To simplify the integration, we asked <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> to generate the corresponding RDF triple code for the image, which we then included in our proposal as a way to fill this gap efficiently. 
 
 ## 4. Developing and structuring the website 
 
