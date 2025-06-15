@@ -75,11 +75,11 @@ This methodology demonstrated that LLMs can assist in enriching Knowledge Graphs
 
 ## Summary 
 
-<p>☑️ **Wikidata** → Knowledge Graph</p>
-<p>☑️ **Wikidata Query Service** → query the KG to uncover the gaps</p>
-<p>☑️ **ChatGPT - Gemini - Mistral AI** → retrieve missing information and generate RDF triples</p>
-<p>☑️ **Manual editing** → correct LLMs inaccuracies</p>
-<p>☑️ **GitHub - Jekyll - Markdown - HTML** → build the website for the report</p>
+<p>☑️ <strong>Wikidata</strong> → Knowledge Graph</p>
+<p>☑️ <strong>Wikidata Query Service</strong> → query the KG to uncover the gaps</p>
+<p>☑️ <strong>ChatGPT - Gemini - Mistral AI</strong> → retrieve missing information and generate RDF triples</p>
+<p>☑️ <strong>Manual editing</strong> → correct LLMs inaccuracies</p>
+<p>☑️ <strong>GitHub - Jekyll - Markdown - HTML</strong> → build the website for the report</p>
 
 ***
 
