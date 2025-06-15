@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gap 3 | Country of citizenship
-description: Where do these painters come from? 
+description: Where do the painters come from? 
 ---
 
 ## Choosing the property
