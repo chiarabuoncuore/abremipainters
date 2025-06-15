@@ -43,10 +43,10 @@ We then prompted the three LLMs to generate relevant **RDF triples** to hypothet
 
 Our analysis showed that all three LLMs returned an incorrect Q-ID for Marcantonio Chiarini, while only Mistral generated an incorrect Q-ID for the Baroque movement. Consequently, we manually corrected the RDF triple:
 
-![correctrdfchiarinimov](/abremipainters/assets/images/CHIARINI4.png) CAMBIA 
+![correctrdfchiarinimov](/abremipainters/assets/images/correctedrdfchiarinimov.jpg)
 
 ***
 
-[← Gap](./gap2.md) 
+[← Gap 2](./gap2.md) 
 
 [← Main Page](./)
