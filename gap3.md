@@ -1,77 +1,87 @@
 ---
 layout: default
 title: Gap 3 | Country of citizenship
+description: Where do these painters come from? 
 ---
-An artist's nationality often influences their styles and themes, therefore finding out the “country of citizenship” of painters like Marcantonio Chairini and Francesco Paolo Michetti is essential, since it provides the context for interpreting their work and to better understand the environment that shaped their artistic identity. For this reason, our goal is to update this property in their respective WikiData’s pages.
 
-**1st step: IDENTIFYING THE GAP**
- 
- We created the following SPARQL query using Union operator in order to find out Chiarini and Michetti’s country of citizenship.
+## Choosing the property
 
+An artist's nationality often influences their styles and themes, therefore finding out the country of citizenship of painters like Marcantonio Chairini and Francesco Paolo Michetti is essential, since it provides the context to interpret their work and to better understand the environment that shaped their artistic identity.
 
-![Sparql query](/abremipainters/assets/images/chiarinicountryofcitizenship/SPARQLQUERYCHIARINICOUNTRYOFCITIZENSHIP.jpg)
+## Identifying the gap
 
-**GAP IDENTIFIED:** thanks to this SPARQL query, we discovered that Chiarini’s page did not indicate his country of citizenship.
+To pinpoint the gap on Wikidata, we created a **SPARQL query** to investigate how the place of birth <code class="language-plaintext highlighter-rouge">(P19)</code> and country of citizenship <code class="language-plaintext highlighter-rouge">(P27)</code> properties are associated with both painters. We chose the former as a correlated element to "country of citizenship" since they are usually closely linked. By using the <code class="language-plaintext highlighter-rouge">UNION</code> keyword, we asked the KG to provide us either with the painters' place of birth or country of citizenship.
 
+```sparql
+SELECT DISTINCT ?painter ?painterLabel ?placeofbirthLabel ?countryofcitizenshipLabel
+WHERE {
+  VALUES ?painter {
+    wd:Q3081044 wd:Q3288556
+  }
+  {
+    ?painter wdt:P19 ?placeofbirth .
+  }
+  UNION
+  {
+    ?painter wdt:P27 ?countryofcitizenship .
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?painterLabel
+```
 
-**2nd STEP: REQUEST THE MISSING INFORMATION TO 3 DIFFERENT LANGUAGE MODELS**
+### Results:
 
-After having detected the gap, we asked, through a “zero-shot prompting technique”, which was Chiarini’s country of citizenship to 3 different LLMs: Chat GPT, Gemini and Mistral.
+![resultsparqlcoc](/abremipainters/assets/images/resquerygap3.png)
 
-- **CHATGPT**
+Thanks to this SPARQL query, we discovered that Chiarini’s page did not indicate his country of citizenship, but rather only his place of birth.
+
+## Retrieving the information
+
+After detecting the gap, we asked the chosen LLMs to indicate Chiarini’s country of citizenship using a <code class="language-plaintext highlighter-rouge">few-shot prompt</code>:
+
+```
+If the country of citizenship of Giovanni Battista Tiepolo was the Republic of Venice and the country of citizenship of Caravaggio was the Duchy of Milan, which was the country of citizenship of painter Marcantonio Chiarini?
+```
+
+### 1. **CHATGPT**
   
-![question to ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGPTQUESTION.jpg)
+![question to ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGPTQUESTION.jpg) cambia
 
-
-- **GEMINI**
+### 2. **GEMINI**
   
-![question to Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIQUESTION.jpg)
+![question to Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIQUESTION.jpg) cambia
 
-
-- **MISTRAL**
+### 3. **MISTRAL AI**
   
-![question to Mistral](/abremipainters/assets/images/chiarinicountryofcitizenship/MISTRALQUESTION.png)
+![question to Mistral](/abremipainters/assets/images/chiarinicountryofcitizenship/MISTRALQUESTION.png) cambia
 
+As can be seen, LLMS ChatGPT and Gemini provided the generally and historically correct answer "Papal States", while Mistral AI returned false information ("Republic of Venice"). Upon confirming that Marcantonio Chiarini was in fact born in <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Bologna</a>, and that Bologna was part of the <a href="https://it.wikipedia.org/wiki/Bologna#Storia" target="_blank">Papal States</a> during that period, we discarded Mistral AI's response. We therefore associated Marcantonio Chiarini's country of citizenship with the **Papal States**.
 
-**INFORMATION ACQUIRED:** Since all the 3 LLMs provided us with the same answer, we took for granted that Chiarini’s country of citizenship is: Italy.
+## Filling the gap: creating RDF triples
 
+We then prompted the three LLMs to generate meaningful **RDF triples** containing the discovered information. 
 
-**3rd step: CREATION OF RDF TRIPLES USING WIKIDATA ONTOLOGY**
- 
- Having discovered Italy (Q38) is Chiarini’s country of citizenship, we asked the 3 LLMs to create an RDF triples basing on WikiData ontology.
-
-- **CHATGPT:**
+### 1. **CHATGPT**
   
-![RDF triple created by ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIINCORRECTRDF.jpg)
+![question to ChatGPT](/abremipainters/assets/images/chatrdfcoc.jpg) add all 3
 
-
-- **GEMINI:**
+### 2. **GEMINI**
   
-![RDF triple created by Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGPTRDFTRIPLE.jpg)
+![question to Gemini](/abremipainters/assets/images/geminirdfcoc.png)
 
-
- Since Chiarini’s code was incorrect, we manually refined it:
- 
-
- ![RDF triple created by Gemini, manually fixed](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINICORRECTRDF.jpg)
- 
-
-- **MISTRAL:**
+### 3. **MISTRAL AI**
   
-![RDF triple created by Mistral](/abremipainters/assets/images/chiarinicountryofcitizenship/MISTRALINCORRECTRDF.jpg)
+![question to Mistral](/abremipainters/assets/images/mistralrdfcoc.png)
 
-Mistral provided us only with an example of a RDF triple, so we fixed it manually:
+## Manual correction
 
-![RDF triple created by Mistral, manually refined](/abremipainters/assets/images/chiarinicountryofcitizenship/MISTRALCORRECTRDF.jpg)
+Since all three LLMs returned incorrect Q-IDs for Marcantonio Chiarini <code class="language-plaintext highlighter-rouge">(Q3288556)</code> while Gemini was the only one to return the correct Q-ID for Papal States <code class="language-plaintext highlighter-rouge">(Q170174)</code>, we refined the RDF triple manually as follows: 
 
+![question to Mistral](/abremipainters/assets/images/correctedrdfcoc.jpg)
 
-After having verified every prefix, here’s the final and correct RDF triple:
+## Conclusion
 
-![Final RDF](/abremipainters/assets/images/chiarinicountryofcitizenship/FINALRDF.jpg)
-
-**4th step: SUMMARY**
-
-Firstly, thanks to the manual creation of a SPARQL query using “UNION” as a command, we were able to find a piece of missing information: Chiarini’s country of citizenship. Then we had the possibility to obtain this information by asking ChatGPT, Gemini and Mistral. Subsequently, we asked these LLMs to provide us with RDF triples regarding the painter’s country of citizenship. Both Gemini and Mistral’s RDF triple had to be manually refined.
-
+Firstly, through a SPARQL query using the <code class="language-plaintext highlighter-rouge">UNION</code> keyword, we were able to find a piece of missing information regarding Chiarini’s country of citizenship. Subsequently we prompted the chosen LLMs ChatGPT, Gemini and Mistral AI to obtain such missing information. We then asked the LLMs to provide us with RDF triples regarding the painter’s country of citizenship, and manually corrected the given output, as they were all incorrect. It's important to note that Mistral AI provided us with completely incorrect information, which led us to outright ignore its input in this section of our project.
 
 [← Main Page](./)
