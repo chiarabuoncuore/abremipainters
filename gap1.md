@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gap 1 | Image
+description: What do the painters look like?
 ---
 
 ## Choosing the property
