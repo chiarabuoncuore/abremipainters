@@ -27,7 +27,7 @@ ORDER BY ?painterLabel
 
 ![Results](/abremipainters/assets/images/resquerygap1.png)
 
-The query showed the lack of Marcantonio Chiarini's image on Wikidata. Therefore, we performed a manual search on <a href="https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special%3AMediaSearch&type=image" target="_blank">Wikimedia Commons</a>. From the search results, we reviewed multiple images and identified <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg/640px-Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg">one</a> that appears to be related to Chiarini or his artistic work.
+The query showed the lack of Marcantonio Chiarini's <code class="language-plaintext highlighter-rouge">(Q3288556)</code> image on Wikidata. Therefore, we performed a manual search on <a href="https://commons.wikimedia.org/w/index.php?search=MARCANTONIO+CHIARINI&title=Special%3AMediaSearch&type=image" target="_blank">Wikimedia Commons</a>. From the search results, we reviewed multiple images and identified <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg/640px-Ritratto_di_Marcantonio_Chiarini_%28bulino%29.jpg">one</a> that appears to be related to Chiarini or his artistic work.
 
 ## Filling the gap: creating RDF triples
 
