@@ -3,23 +3,45 @@ layout: default
 title: Gap 2 | Movement
 ---
 
-**Addressing the Gap: The Missing Portrait of Marcantonio Chiarini on Wikidata**
+## Choosing the property:
 
 Given that artistic movements are frequently linked to prominent painters whose reputations are widely established and recognized, we questioned whether there might be a lack of information concerning lesser-known artists, such as those included in our analysis.
 
-- **How did we identify the Gap?**
+## Identifying the gap:
 
-We crafted a SPARQL query to explore how the movement property (P135) is linked to both painters. By using the keywords 'OPTIONAL' and 'ORDER BY', we aimed to clearly visualize any missing information and determine which painter the gap relates to.
+We crafted a **SPARQL query** to explore how the movement property <code class="language-plaintext highlighter-rouge">(P135)</code> is linked to both painters. By using the keywords <code class="language-plaintext highlighter-rouge">OPTIONAL</code> and <code class="language-plaintext highlighter-rouge">ORDER BY</code>, we aimed to clearly visualize any missing information and determine which painter the gap relates to.
 
-![SPARQLQUERY](/abremipainters/assets/images/Immagine5.jpg)
+```sparql
+SELECT DISTINCT ?painter ?painterLabel ?movementLabel
+WHERE {
+  VALUES ?painter {
+    wd:Q3081044 wd:Q3288556
+  }
+  OPTIONAL { ?painter wdt:P135 ?movement . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?painterLabel
+```
 
-*Results* 
+### Results:
 
-The query results revealed a gap in the 'movement' information for both painters, as illustrated in the following scheme/the scheme above.
+The query results revealed a gap in the 'movement' information for both painters, as illustrated below.
 
-- **Filling the Gap**
+IMMAGINE RISULTATI gap2
 
-To fill the GAP, we asked this information to the three LLMs at hand: using a zero-shot prompt for Marcantonio Chiarini and a few-shot prompt for Francesco Paolo Michetti so as to get the information while also observing a potential different approach to a similar question posed in a different way.
+## Retrieving the information:
+
+To fill the gap, we asked this information to the three LLMs at hand: using a <code class="language-plaintext highlighter-rouge">zero-shot prompt</code> for Marcantonio Chiarini and a <code class="language-plaintext highlighter-rouge">few-shot prompt</code> for Francesco Paolo Michetti so as to get the information while also observing a potential different approach to a similar question posed in a different way.
+
+### [Marcantonio Chiarini](./chiarini.md)  
+
+### [Francesco Paolo Michetti](./michetti.md) 
+
+## Conclusion: 
+
+To conclude, a SPARQL query confirmed the gap we suspected existed in Wikidata regarding lesser-known painters. LLMs helped us retrieve the missing information and suggested ways to represent it using RDF triples. However, we also identified several inaccuracies in the outputs, which required manual intervention to correct and refine the data. 
+This highlights how LLMs can be powerful tools for data enrichment, but still depend on human oversight for accuracy and quality.
+
 
 **A. MARCANTONIO CHIARINI**
 
@@ -96,12 +118,7 @@ Our analysis revealed that both ChatGPT and Mistral AI returned incorrect Wikida
 ![Michetti1](/abremipainters/assets/images/Michetti4.png)
 
 
-- **CONCLUSION**
 
-As a result, a SPARQL query confirmed the gap we suspected existed in Wikidata regarding lesser-known painters. LLMs helped us retrieve the missing information and suggested ways to represent it using RDF triples. However, we also identified several inaccuracies in the outputs, which required manual intervention to correct and refine the data. 
-This highlights how LLMs can be powerful tools for data enrichment, but still depend on human oversight for accuracy and quality.
-
-
-
+TOGLI IMMAGINE5
 
 [← Main Page](./)
