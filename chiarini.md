@@ -6,7 +6,7 @@ description: Gap 2 | Movement
 
 ## Identifying the gap:
 
-We retrieved the information regarding the movement associated with Marcantonio Chiarini by using a <code class="language-plaintext highlighter-rouge">zero-shot prompt</code>:
+We retrieved the information regarding the movement associated with Marcantonio Chiarini <code class="language-plaintext highlighter-rouge">(Q3288556)</code> by using a <code class="language-plaintext highlighter-rouge">zero-shot prompt</code>:
 <pre><code>“Which movement did the painter Marcantonio Chiarini belong to?”</code></pre>
 
 ### 1. *CHAT GPT*
