@@ -13,8 +13,7 @@ We crafted a SPARQL query to explore how the movement property (P135) is linked 
 
 ![SPARQLQUERY](/abremipainters/assets/images/Immagine5.jpg)
 
-
-# Results 
+*Results* 
 
 The query results revealed a gap in the 'movement' information for both painters, as illustrated in the following scheme/the scheme above.
 
