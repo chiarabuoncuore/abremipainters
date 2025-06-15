@@ -45,8 +45,7 @@ Based on the obtained information, our next step was to ask the LLMs to generate
 
 Our analysis revealed that both ChatGPT and Mistral AI returned incorrect Wikidata Q-IDs for Francesco Paolo Michetti <code class="language-plaintext highlighter-rouge">(Q3081044)</code> and the Realism movement <code class="language-plaintext highlighter-rouge">(Q2642826)</code>. In contrast, the Q-IDs provided by Gemini were accurate. As a result, we manually refined the RDF triple as follows:
 
-![Michetti1](/abremipainters/assets/images/Michetti4.png) CORREGGI 
-
+![Michetti1](/abremipainters/assets/images/correctedrdfmichettimov.jpg) 
 
 ***
 
