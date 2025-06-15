@@ -33,16 +33,16 @@ Before using the selected image, we had to verify that it was freely available a
 ## 4. Developing and structuring the website 
 
 ### Challenge:
-As none of us had experience with building websites, neither on <a href="https://github.com/" target="_blank">**GitHub**</a> nor with **Jekyll**, the process took a lot of trial and error following thorough documentation. Making sure all the website pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
+Since none of us had experience with building websites, neither on <a href="https://github.com/" target="_blank">**GitHub**</a> nor with **Jekyll**, the process took a lot of trial and error following thorough documentation. Making sure all the website pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
 
 ### Solution:
 After studying both the GitHub and the Jekyll documentation, we outlined a list of sub-objectives we needed to achieve. After choosing a layout we all liked and enabling the website, we went through the gradual process of adding each page’s content, and finally we concentrated on ensuring navigation ran smoothly, and that the website as a whole looked visually cohesive, so all the content was properly rendered.
 
 ## 5. Summary 
 
-<p>☑️  Generating precise SPARQL Queries → incorporation of relevant keywords and identification of gaps on Wikidata</p>
-<p>☑️  Q-ID Errors in LLM Outputs → manual correction by cross-checking on Wikidata</p>
-<p>☑️  Inserting an image → generation of an RDF triple code to include the image in the proposal and fill the gap</p>
-<p>☑️  Developing and structuring the website → study of the GitHub and Jekyll documentation</p>
+<p>☑️ <strong>Generating precise SPARQL Queries</strong> → incorporation of relevant keywords and identification of gaps on Wikidata</p>
+<p>☑️ <strong>Q-ID Errors in LLM Outputs</strong> → manual correction by cross-checking on Wikidata</p>
+<p>☑️ <strong>Inserting an image</strong> → generation of an RDF triple code to include the image in the proposal and fill the gap</p>
+<p>☑️ <strong>Developing and structuring the website</strong> → study of the GitHub and Jekyll documentation</p>
 
 [← Main Page](./)
