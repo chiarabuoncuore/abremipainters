@@ -46,15 +46,15 @@ If the country of citizenship of Giovanni Battista Tiepolo was the Republic of V
 
 ### 1. **CHATGPT**
   
-![question to ChatGPT](/abremipainters/assets/images/chiarinicountryofcitizenship/CHATGPTQUESTION.jpg) cambia
+![question to ChatGPT](/abremipainters/assets/images/chatcoc.jpg)
 
 ### 2. **GEMINI**
   
-![question to Gemini](/abremipainters/assets/images/chiarinicountryofcitizenship/GEMINIQUESTION.jpg) cambia
+![question to Gemini](/abremipainters/assets/images/geminicoc.jpg)
 
 ### 3. **MISTRAL AI**
   
-![question to Mistral](/abremipainters/assets/images/chiarinicountryofcitizenship/MISTRALQUESTION.png) cambia
+![question to Mistral](/abremipainters/assets/images/mistralcoc.png)
 
 As can be seen, LLMS ChatGPT and Gemini provided the generally and historically correct answer "Papal States", while Mistral AI returned false information ("Republic of Venice"). Upon confirming that Marcantonio Chiarini was in fact born in <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Bologna</a>, and that Bologna was part of the <a href="https://it.wikipedia.org/wiki/Bologna#Storia" target="_blank">Papal States</a> during that period, we discarded Mistral AI's response. We therefore associated Marcantonio Chiarini's country of citizenship with the **Papal States**.
 
@@ -64,7 +64,7 @@ We then prompted the three LLMs to generate meaningful **RDF triples** containin
 
 ### 1. **CHATGPT**
   
-![question to ChatGPT](/abremipainters/assets/images/chatrdfcoc.jpg) add all 3
+![question to ChatGPT](/abremipainters/assets/images/chatrdfcoc.jpg)
 
 ### 2. **GEMINI**
   
