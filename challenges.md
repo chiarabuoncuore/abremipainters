@@ -42,7 +42,7 @@ After studying both the GitHub and the Jekyll documentation, we outlined a list 
 
 <p>☑️  Generating precise SPARQL Queries → incorporation of relevant keywords and identification of gaps on Wikidata</p>
 <p>☑️  Q-ID Errors in LLM Outputs → manual correction by cross-checking on Wikidata</p>
-<p>☑️  Inserting an image → generation of a RDF triple code to include the image in the proposal and fill the gap</p>
+<p>☑️  Inserting an image → generation of an RDF triple code to include the image in the proposal and fill the gap</p>
 <p>☑️  Developing and structuring the website → study of the GitHub and Jekyll documentation</p>
 
 [← Main Page](./)
