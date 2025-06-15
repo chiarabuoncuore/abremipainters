@@ -20,7 +20,7 @@ We then applied this framework to the two painters in question: Marcantonio Chia
 
 ***
 	
-### STEP 1: Crafting SPARQL queries
+## STEP 1: Crafting SPARQL queries
 We used <a href="https://query.wikidata.org/" target="_blank">**Wikidata Query Service**</a> to extract existing data and identify missing information.
 
 We crafted significant **SPARQL** queries using multiple keywords:
@@ -67,11 +67,19 @@ to retrieve the missing information using three distinct **prompting techniques*
 </ol>
 
 ## STEP 3: Creating RDF TRIPLES and manual correction
-Once LLMs provided factual outputs, we asked them to format this information into Wikidata-compatible RDF triples.
-While LLMs provided a starting point, we then compared and evaluated the results. Manual intervention was necessary mainly due to inaccurate Wikidata IDs. 
+Once the LLMs provided factual outputs, we asked them to format this information into Wikidata-compatible RDF triples.
+As they provided a starting point, we then compared and evaluated the results. Manual intervention was necessary mainly due to inaccurate Wikidata IDs. 
 
 ## STEP 4: Conclusions
-This methodology demonstrated that LLMs can assist in enriching knowledge graphs, but cannot yet be trusted for fully automated integration without human validation. 
+This methodology demonstrated that LLMs can assist in enriching Knowledge Graphs, but cannot yet be trusted for fully automated integration without human validation. 
+
+## Summary 
+
+<p>☑️ **Wikidata** → Knowledge Graph</p>
+<p>☑️ **Wikidata Query Service** → query the KG to uncover the gaps</p>
+<p>☑️ **ChatGPT - Gemini - Mistral AI** → retrieve missing information and generate RDF triples</p>
+<p>☑️ **Manual editing** → correct LLMs inaccuracies</p>
+<p>☑️ **GitHub - Jekyll - Markdown - HTML** → build the website for the report</p>
 
 ***
 
