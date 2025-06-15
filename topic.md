@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Topic
-description: Two Masters, Two Regions 
+description: Two masters, two regions 
 ---
 
 ## Marcantonio Chiarini <code class="language-plaintext highlighter-rouge">(Q3288556)</code> and Francesco Paolo Michetti <code class="language-plaintext highlighter-rouge">(Q3081044)</code>
