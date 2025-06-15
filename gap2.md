@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gap 2 | Movement
+description: Which artistic movement do the painters belong to? 
 ---
 
 ## Choosing the property
@@ -33,9 +34,14 @@ The query results revealed a gap in the 'movement' information for both painters
 
 To fill the gap, we asked this information to the three LLMs at hand: using a <code class="language-plaintext highlighter-rouge">zero-shot prompt</code> for **Marcantonio Chiarini** <code class="language-plaintext highlighter-rouge">(Q3288556)</code> and a <code class="language-plaintext highlighter-rouge">few-shot prompt</code> for **Francesco Paolo Michetti** <code class="language-plaintext highlighter-rouge">(Q3081044)</code> so as to get the information while also observing a potential different approach to a similar question posed in a different way.
 
-### [Marcantonio Chiarini](./chiarini.md)  
-
-### [Francesco Paolo Michetti](./michetti.md) 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h3>
+    <a href="https://chiarabuoncuore.github.io/abremipainters/chiarini.html" target="_blank">Marcantonio Chiarini</a>
+  </h3>
+  <h3>
+    <a href="https://chiarabuoncuore.github.io/abremipainters/michetti.html" target="_blank">Francesco Paolo Michetti</a>
+  </h3>
+</div>
 
 ## Conclusion 
 
