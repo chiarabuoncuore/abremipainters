@@ -1,9 +1,48 @@
 ---
 layout: default
 title: Gap 4 | Work Location
+description: Where were the painters active? 
 ---
 
-Another piece of information we examined was the workplaces of the two painters, in order to gain insight into where they received their education and which influences may have shaped their artistic development. 
+## Choosing the property
+
+Another piece of information we examined was the work location of the two painters, in order to gain insight into not only where they were professionally active, but also where they received their education and which influences may have shaped their artistic development. 
+
+## Identifying the gap
+
+To pinpoint the gap on Wikidata, we created a **SPARQL query** to investigate the work location <code class="language-plaintext highlighter-rouge">(P937)</code>
+associated with both painters. By using the <code class="language-plaintext highlighter-rouge">OPTIONAL</code> keyword, we asked the KG to provide us with pieces of information for both painters at the same time, and ensuring the return of a blank space if such information is missing without rejecting the solution. 
+
+```sparql
+SELECT DISTINCT ?painter ?painterLabel ?worklocationLabel
+WHERE {
+  VALUES ?painter {
+    wd:Q3081044 wd:Q3288556
+  }
+  OPTIONAL { ?painter wdt:P937 ?worklocation . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?painterLabel
+```
+
+### Results: 
+
+![resultsguerygap4](/abremipainters/assets/images/resquerygap4.png)
+
+From these results, we learn that Marcantonio Chiarini was active in Vienna, while no information is available regarding the workplace of Francesco Paolo Michetti, reflecting a gap in the data.
+
+## Retrieving the information
+
+To address the missing data, we asked the three LLMs with the <code class="language-plaintext highlighter-rouge">chain-of-thought prompt</code> the following question: 
+
+Which was Francesco Paolo Michetti’s work location? Let’s think step by step. 
+
+## Filling the gap: creating RDF triples 
+
+## Manual correction
+
+## Conclusion
+
 
 Considering that: 
 
@@ -12,6 +51,8 @@ Considering that:
 *wd:Q3081044: Francesco Paolo Michetti* 
 
 *wd:Q3288556: Marcantonio Chiarini*
+
+
 
 - **We employed a SPARQL query to identify this label on wikidata**
 
