@@ -18,7 +18,7 @@ WHERE {
   VALUES ?painter {
     wd:Q3081044 wd:Q3288556
   }
-  ?painter wdt:P18 ?image .
+  OPTIONAL { ?painter wdt:P18 ?image . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ORDER BY ?painterLabel
