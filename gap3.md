@@ -56,7 +56,7 @@ If the country of citizenship of Giovanni Battista Tiepolo was the Republic of V
   
 ![question to Mistral](/abremipainters/assets/images/mistralcoc.png)
 
-As can be seen, LLMS ChatGPT and Gemini provided the generally and historically correct answer "Papal States", while Mistral AI returned false information ("Republic of Venice"). Upon confirming that Marcantonio Chiarini was in fact born in <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Bologna</a>, and that Bologna was part of the <a href="https://it.wikipedia.org/wiki/Bologna#Storia" target="_blank">Papal States</a> during that period, we discarded Mistral AI's response. We therefore associated Marcantonio Chiarini's country of citizenship with the **Papal States**.
+As can be seen, LLMS ChatGPT and Gemini provided the generally and historically correct answer "Papal States", while Mistral AI returned false information ("Republic of Venice"). Upon confirming that Marcantonio Chiarini was in fact born in <a href="https://www.treccani.it/enciclopedia/marc-antonio-chiarini_%28Dizionario-Biografico%29/" target="_blank">Bologna</a>, and that Bologna was part of the <a href="https://en.wikipedia.org/wiki/Bologna#History" target="_blank">Papal States</a> during that period, we discarded Mistral AI's response. We therefore associated Marcantonio Chiarini's country of citizenship with the **Papal States**.
 
 ## Filling the gap: creating RDF triples
 
